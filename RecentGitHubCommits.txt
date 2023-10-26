@@ -1,0 +1,10 @@
+c20ea300efcca9f2605ce4f61ac7d74cd38ef6b7 Add Player.accFlipper getter
+c725c50989b18586417ce1169a464bdd1a5ea608 Fix #2020 (#3851)
+0c34a06fd49805b17ee6cf21f267ed204d3d1980 Terminal Fix SDL driver fallbacks on Linux, includes upstream FNA (not FNA3D) update
+28404764065cf503ef6129e8db9aa492f9164419 Quick-swap fixes for items with reuseDelay or useTime > useAnimation
+e5748724bdc73534f5c8231fc49d5554a14305cc Fix "install .net 6.0.0" issue when opening .csproj file from in-game menu.
+0658c2cf0f54abc326691ace2855a3004bc70d78 Set Main.myPlayer for servers immediately on launch, before autogen
+44a57c1941c343fd9b498d45fc1762a8abc0ec86 Keep autoReusing a smart selected item when controlTorch is released unless a hotbar key is pressed
+c2c5953522f7f311ae2feed04ab7b355609c5b19 Update Minecraft wiki link to new domain (#3848)
+38c14b2e5ce0857dae427104cdf5fc6f6757e2a2 Fix server -world loading for worlds made since mod version tracking feature added.
+42d29e30ded68ae63cd3d95d35e5e2fd8879116b Fix MonoModHooks not unloading hooks automatically from any mod except the first.

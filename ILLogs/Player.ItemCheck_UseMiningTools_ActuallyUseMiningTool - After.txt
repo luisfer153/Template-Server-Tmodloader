@@ -1,0 +1,442 @@
+[13oct.2023 - 14:05:00]
+// ILCursor: System.Void DMD<Terraria.Player::ItemCheck_UseMiningTools_ActuallyUseMiningTool>?43222623::Terraria.Player::ItemCheck_UseMiningTools_ActuallyUseMiningTool(Terraria.Player,Terraria.Item,System.Boolean&,System.Int32,System.Int32)
+IL_0000:  ldc.i4.m1    
+IL_0001:  stloc.0      
+IL_0002:  ldc.i4.0     
+IL_0003:  stloc.1      
+IL_0004:  ldarg.2      
+IL_0005:  ldc.i4.1     
+IL_0006:  stind.i1     
+IL_0007:  ldsflda      Terraria.Tilemap Terraria.Main::tile
+IL_000C:  ldarg.3      
+IL_000D:  ldarg.s      y
+IL_000F:  call         Terraria.Tile Terraria.Tilemap::get_Item(System.Int32,System.Int32)
+IL_0014:  stloc.2      
+IL_0000:  ldloc.2      
+IL_0000:  call         System.Void SpiritMod.Utilities.ILEdits.UnfellerTreeEdit::<Player_ItemCheck>g__SetLastAxe|2_0(Terraria.Tile)
+IL_0015:  ldloca.s     V_2
+IL_0017:  call         System.Boolean Terraria.Tile::active()
+IL_001C:  brtrue.s     IL_001F
+IL_001E:  ret          
+IL_001F:  ldarg.1      
+IL_0020:  ldfld        System.Int32 Terraria.Item::pick
+IL_0025:  ldc.i4.0     
+IL_0026:  ble.s        IL_0048
+IL_0028:  ldsfld       System.Boolean[] Terraria.Main::tileAxe
+IL_002D:  ldloca.s     V_2
+IL_002F:  call         System.UInt16& Terraria.Tile::get_type()
+IL_0034:  ldind.u2     
+IL_0035:  ldelem.u1    
+IL_0036:  brtrue.s     IL_0048
+IL_0038:  ldsfld       System.Boolean[] Terraria.Main::tileHammer
+IL_003D:  ldloca.s     V_2
+IL_003F:  call         System.UInt16& Terraria.Tile::get_type()
+IL_0044:  ldind.u2     
+IL_0045:  ldelem.u1    
+IL_0046:  brfalse.s    IL_007A
+IL_0048:  ldarg.1      
+IL_0049:  ldfld        System.Int32 Terraria.Item::axe
+IL_004E:  ldc.i4.0     
+IL_004F:  ble.s        IL_0061
+IL_0051:  ldsfld       System.Boolean[] Terraria.Main::tileAxe
+IL_0056:  ldloca.s     V_2
+IL_0058:  call         System.UInt16& Terraria.Tile::get_type()
+IL_005D:  ldind.u2     
+IL_005E:  ldelem.u1    
+IL_005F:  brtrue.s     IL_007A
+IL_0061:  ldarg.1      
+IL_0062:  ldfld        System.Int32 Terraria.Item::hammer
+IL_0067:  ldc.i4.0     
+IL_0068:  ble.s        IL_007D
+IL_006A:  ldsfld       System.Boolean[] Terraria.Main::tileHammer
+IL_006F:  ldloca.s     V_2
+IL_0071:  call         System.UInt16& Terraria.Tile::get_type()
+IL_0076:  ldind.u2     
+IL_0077:  ldelem.u1    
+IL_0078:  brfalse.s    IL_007D
+IL_007A:  ldarg.2      
+IL_007B:  ldc.i4.0     
+IL_007C:  stind.i1     
+IL_007D:  ldarg.0      
+IL_007E:  ldfld        Terraria.HitTile Terraria.Player::hitTile
+IL_0083:  ldarg.3      
+IL_0084:  ldarg.s      y
+IL_0086:  ldc.i4.1     
+IL_0087:  callvirt     System.Int32 Terraria.HitTile::HitObject(System.Int32,System.Int32,System.Int32)
+IL_008C:  stloc.0      
+IL_008D:  ldsfld       System.Boolean[] Terraria.Main::tileNoFail
+IL_0092:  ldloca.s     V_2
+IL_0094:  call         System.UInt16& Terraria.Tile::get_type()
+IL_0099:  ldind.u2     
+IL_009A:  ldelem.u1    
+IL_009B:  brfalse.s    IL_00A0
+IL_009D:  ldc.i4.s     100
+IL_009F:  stloc.1      
+IL_00A0:  ldsfld       System.Boolean[] Terraria.Main::tileHammer
+IL_00A5:  ldloca.s     V_2
+IL_00A7:  call         System.UInt16& Terraria.Tile::get_type()
+IL_00AC:  ldind.u2     
+IL_00AD:  ldelem.u1    
+IL_00AE:  brfalse      IL_01C2
+IL_00B3:  ldarg.2      
+IL_00B4:  ldc.i4.0     
+IL_00B5:  stind.i1     
+IL_00B6:  ldarg.1      
+IL_00B7:  ldfld        System.Int32 Terraria.Item::hammer
+IL_00BC:  ldc.i4.0     
+IL_00BD:  ble          IL_03D8
+IL_00C2:  ldarg.1      
+IL_00C3:  ldfld        System.Int32 Terraria.Item::hammer
+IL_00C8:  ldloca.s     V_1
+IL_00CA:  call         System.Void Terraria.ModLoader.TileLoader::MineDamage(System.Int32,System.Int32&)
+IL_00CF:  ldarg.3      
+IL_00D0:  ldarg.s      y
+IL_00D2:  call         System.Boolean Terraria.WorldGen::CanKillTile(System.Int32,System.Int32)
+IL_00D7:  brtrue.s     IL_00DB
+IL_00D9:  ldc.i4.0     
+IL_00DA:  stloc.1      
+IL_00DB:  ldloca.s     V_2
+IL_00DD:  call         System.UInt16& Terraria.Tile::get_type()
+IL_00E2:  ldind.u2     
+IL_00E3:  ldc.i4.s     26
+IL_00E5:  bne.un.s     IL_011A
+IL_00E7:  ldarg.1      
+IL_00E8:  ldfld        System.Int32 Terraria.Item::hammer
+IL_00ED:  ldc.i4.s     80
+IL_00EF:  blt.s        IL_00F8
+IL_00F1:  ldsfld       System.Boolean Terraria.Main::hardMode
+IL_00F6:  brtrue.s     IL_011A
+IL_00F8:  ldc.i4.0     
+IL_00F9:  stloc.1      
+IL_00FA:  ldarg.0      
+IL_00FB:  ldc.i4.4     
+IL_00FC:  call         Terraria.DataStructures.PlayerDeathReason Terraria.DataStructures.PlayerDeathReason::ByOther(System.Int32)
+IL_0101:  ldarg.0      
+IL_0102:  ldfld        System.Int32 Terraria.Player::statLife
+IL_0107:  ldc.i4.2     
+IL_0108:  div          
+IL_0109:  ldarg.0      
+IL_010A:  ldfld        System.Int32 Terraria.Entity::direction
+IL_010F:  neg          
+IL_0110:  ldc.i4.0     
+IL_0111:  ldc.i4.0     
+IL_0112:  ldc.i4.0     
+IL_0113:  ldc.i4.m1    
+IL_0114:  call         System.Double Terraria.Player::Hurt(Terraria.DataStructures.PlayerDeathReason,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32)
+IL_0119:  pop          
+IL_011A:  ldc.i4.1     
+IL_011B:  call         System.Void Terraria.GameContent.Achievements.AchievementsHelper::set_CurrentlyMining(System.Boolean)
+IL_0120:  ldarg.0      
+IL_0121:  ldfld        Terraria.HitTile Terraria.Player::hitTile
+IL_0126:  ldloc.0      
+IL_0127:  ldloc.1      
+IL_0128:  ldc.i4.1     
+IL_0129:  callvirt     System.Int32 Terraria.HitTile::AddDamage(System.Int32,System.Int32,System.Boolean)
+IL_012E:  ldc.i4.s     100
+IL_0130:  blt.s        IL_0169
+IL_0132:  ldarg.0      
+IL_0133:  ldarg.3      
+IL_0134:  ldarg.s      y
+IL_0136:  ldc.i4.1     
+IL_0137:  call         System.Void Terraria.Player::ClearMiningCacheAt(System.Int32,System.Int32,System.Int32)
+IL_013C:  ldarg.3      
+IL_013D:  ldarg.s      y
+IL_013F:  ldc.i4.0     
+IL_0140:  ldc.i4.0     
+IL_0141:  ldc.i4.0     
+IL_0142:  call         System.Void Terraria.WorldGen::KillTile(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+IL_0147:  ldsfld       System.Int32 Terraria.Main::netMode
+IL_014C:  ldc.i4.1     
+IL_014D:  bne.un.s     IL_0194
+IL_014F:  ldc.i4.s     17
+IL_0151:  ldc.i4.m1    
+IL_0152:  ldc.i4.m1    
+IL_0153:  ldnull       
+IL_0154:  ldc.i4.0     
+IL_0155:  ldarg.3      
+IL_0156:  conv.r4      
+IL_0157:  ldarg.s      y
+IL_0159:  conv.r4      
+IL_015A:  ldc.r4       0
+IL_015F:  ldc.i4.0     
+IL_0160:  ldc.i4.0     
+IL_0161:  ldc.i4.0     
+IL_0162:  call         System.Void Terraria.NetMessage::SendData(System.Int32,System.Int32,System.Int32,Terraria.Localization.NetworkText,System.Int32,System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32)
+IL_0167:  br.s         IL_0194
+IL_0169:  ldarg.3      
+IL_016A:  ldarg.s      y
+IL_016C:  ldc.i4.1     
+IL_016D:  ldc.i4.0     
+IL_016E:  ldc.i4.0     
+IL_016F:  call         System.Void Terraria.WorldGen::KillTile(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+IL_0174:  ldsfld       System.Int32 Terraria.Main::netMode
+IL_0179:  ldc.i4.1     
+IL_017A:  bne.un.s     IL_0194
+IL_017C:  ldc.i4.s     17
+IL_017E:  ldc.i4.m1    
+IL_017F:  ldc.i4.m1    
+IL_0180:  ldnull       
+IL_0181:  ldc.i4.0     
+IL_0182:  ldarg.3      
+IL_0183:  conv.r4      
+IL_0184:  ldarg.s      y
+IL_0186:  conv.r4      
+IL_0187:  ldc.r4       1
+IL_018C:  ldc.i4.0     
+IL_018D:  ldc.i4.0     
+IL_018E:  ldc.i4.0     
+IL_018F:  call         System.Void Terraria.NetMessage::SendData(System.Int32,System.Int32,System.Int32,Terraria.Localization.NetworkText,System.Int32,System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32)
+IL_0194:  ldloc.1      
+IL_0195:  brfalse.s    IL_01A2
+IL_0197:  ldarg.0      
+IL_0198:  ldfld        Terraria.HitTile Terraria.Player::hitTile
+IL_019D:  callvirt     System.Void Terraria.HitTile::Prune()
+IL_01A2:  ldarg.0      
+IL_01A3:  ldarg.1      
+IL_01A4:  ldc.r4       1
+IL_01A9:  ldloca.s     V_3
+IL_01AB:  initobj      System.Nullable`1<System.Boolean>
+IL_01B1:  ldloc.3      
+IL_01B2:  call         System.Void Terraria.Player::ApplyItemTime(Terraria.Item,System.Single,System.Nullable`1<System.Boolean>)
+IL_01B7:  ldc.i4.0     
+IL_01B8:  call         System.Void Terraria.GameContent.Achievements.AchievementsHelper::set_CurrentlyMining(System.Boolean)
+IL_01BD:  br           IL_03D8
+IL_01C2:  ldsfld       System.Boolean[] Terraria.Main::tileAxe
+IL_01C7:  ldloca.s     V_2
+IL_01C9:  call         System.UInt16& Terraria.Tile::get_type()
+IL_01CE:  ldind.u2     
+IL_01CF:  ldelem.u1    
+IL_01D0:  brfalse      IL_03C0
+IL_01D5:  ldloca.s     V_2
+IL_01D7:  call         System.UInt16& Terraria.Tile::get_type()
+IL_01DC:  ldind.u2     
+IL_01DD:  ldc.i4.s     80
+IL_01DF:  bne.un.s     IL_01F6
+IL_01E1:  ldloc.1      
+IL_01E2:  ldarg.1      
+IL_01E3:  ldfld        System.Int32 Terraria.Item::axe
+IL_01E8:  ldc.i4.3     
+IL_01E9:  mul          
+IL_01EA:  conv.r4      
+IL_01EB:  ldc.r4       1,2
+IL_01F0:  mul          
+IL_01F1:  conv.i4      
+IL_01F2:  add          
+IL_01F3:  stloc.1      
+IL_01F4:  br.s         IL_0203
+IL_01F6:  ldarg.1      
+IL_01F7:  ldfld        System.Int32 Terraria.Item::axe
+IL_01FC:  ldloca.s     V_1
+IL_01FE:  call         System.Void Terraria.ModLoader.TileLoader::MineDamage(System.Int32,System.Int32&)
+IL_0203:  ldarg.1      
+IL_0204:  ldfld        System.Int32 Terraria.Item::axe
+IL_0209:  ldc.i4.0     
+IL_020A:  ble          IL_03D8
+IL_020F:  ldc.i4.1     
+IL_0210:  call         System.Void Terraria.GameContent.Achievements.AchievementsHelper::set_CurrentlyMining(System.Boolean)
+IL_0215:  ldarg.3      
+IL_0216:  ldarg.s      y
+IL_0218:  call         System.Boolean Terraria.WorldGen::CanKillTile(System.Int32,System.Int32)
+IL_021D:  brtrue.s     IL_0221
+IL_021F:  ldc.i4.0     
+IL_0220:  stloc.1      
+IL_0221:  ldsfld       System.Boolean Terraria.Main::dontStarveWorld
+IL_0226:  brfalse.s    IL_0267
+IL_0228:  ldsfld       System.Int32 Terraria.Main::myPlayer
+IL_022D:  ldarg.0      
+IL_022E:  ldfld        System.Int32 Terraria.Entity::whoAmI
+IL_0233:  bne.un.s     IL_0267
+IL_0235:  ldloc.1      
+IL_0236:  ldc.i4.0     
+IL_0237:  ble.s        IL_0267
+IL_0239:  ldloca.s     V_2
+IL_023B:  call         System.UInt16& Terraria.Tile::get_type()
+IL_0240:  ldind.u2     
+IL_0241:  ldc.i4.s     80
+IL_0243:  bne.un.s     IL_0267
+IL_0245:  ldarg.0      
+IL_0246:  ldc.i4.3     
+IL_0247:  call         Terraria.DataStructures.PlayerDeathReason Terraria.DataStructures.PlayerDeathReason::ByOther(System.Int32)
+IL_024C:  ldc.r4       6
+IL_0251:  ldarg.0      
+IL_0252:  ldfld        System.Single Terraria.Player::luck
+IL_0257:  call         System.Int32 Terraria.Main::DamageVar(System.Single,System.Single)
+IL_025C:  ldc.i4.0     
+IL_025D:  ldc.i4.0     
+IL_025E:  ldc.i4.0     
+IL_025F:  ldc.i4.0     
+IL_0260:  ldc.i4.0     
+IL_0261:  call         System.Double Terraria.Player::Hurt(Terraria.DataStructures.PlayerDeathReason,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32)
+IL_0266:  pop          
+IL_0267:  ldarg.0      
+IL_0268:  ldfld        Terraria.HitTile Terraria.Player::hitTile
+IL_026D:  ldloc.0      
+IL_026E:  ldloc.1      
+IL_026F:  ldc.i4.1     
+IL_0270:  callvirt     System.Int32 Terraria.HitTile::AddDamage(System.Int32,System.Int32,System.Boolean)
+IL_0275:  ldc.i4.s     100
+IL_0277:  blt          IL_036A
+IL_027C:  ldarg.0      
+IL_027D:  ldfld        System.Int32 Terraria.Entity::whoAmI
+IL_0282:  ldsfld       System.Int32 Terraria.Main::myPlayer
+IL_0287:  bne.un       IL_0333
+IL_028C:  ldarg.1      
+IL_028D:  ldfld        System.Int32 Terraria.Item::type
+IL_0292:  ldc.i4       5095
+IL_0297:  bne.un       IL_0333
+IL_029C:  ldsfld       System.Boolean[] Terraria.ID.TileID/Sets::IsATreeTrunk
+IL_02A1:  ldloca.s     V_2
+IL_02A3:  call         System.UInt16& Terraria.Tile::get_type()
+IL_02A8:  ldind.u2     
+IL_02A9:  ldelem.u1    
+IL_02AA:  brtrue.s     IL_02C7
+IL_02AC:  ldloca.s     V_2
+IL_02AE:  call         System.UInt16& Terraria.Tile::get_type()
+IL_02B3:  ldind.u2     
+IL_02B4:  ldc.i4       323
+IL_02B9:  beq.s        IL_02C7
+IL_02BB:  ldloca.s     V_2
+IL_02BD:  call         System.UInt16& Terraria.Tile::get_type()
+IL_02C2:  ldind.u2     
+IL_02C3:  ldc.i4.s     80
+IL_02C5:  bne.un.s     IL_0333
+IL_02C7:  ldc.i4.4     
+IL_02C8:  stloc.s      V_4
+IL_02CA:  ldsfld       System.Boolean[] Terraria.ID.TileID/Sets::CountsAsGemTree
+IL_02CF:  ldloca.s     V_2
+IL_02D1:  call         System.UInt16& Terraria.Tile::get_type()
+IL_02D6:  ldind.u2     
+IL_02D7:  ldelem.u1    
+IL_02D8:  brfalse.s    IL_02DD
+IL_02DA:  ldc.i4.5     
+IL_02DB:  stloc.s      V_4
+IL_02DD:  ldloca.s     V_2
+IL_02DF:  call         System.UInt16& Terraria.Tile::get_type()
+IL_02E4:  ldind.u2     
+IL_02E5:  ldc.i4.s     80
+IL_02E7:  bne.un.s     IL_0313
+IL_02E9:  ldc.i4.6     
+IL_02EA:  stloc.s      V_4
+IL_02EC:  ldloc.s      V_4
+IL_02EE:  ldarg.0      
+IL_02EF:  call         Microsoft.Xna.Framework.Vector2 Terraria.Entity::get_Top()
+IL_02F4:  ldarg.0      
+IL_02F5:  ldfld        System.Int32 Terraria.Entity::direction
+IL_02FA:  ldc.i4.7     
+IL_02FB:  mul          
+IL_02FC:  conv.r4      
+IL_02FD:  ldc.r4       -7
+IL_0302:  newobj       System.Void Microsoft.Xna.Framework.Vector2::.ctor(System.Single,System.Single)
+IL_0307:  ldc.i4       420
+IL_030C:  call         System.Void Terraria.GameContent.LucyAxeMessage::TryCreatingMessageWithCooldown(Terraria.GameContent.LucyAxeMessage/MessageSource,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Int32)
+IL_0311:  br.s         IL_0333
+IL_0313:  ldloc.s      V_4
+IL_0315:  ldarg.0      
+IL_0316:  call         Microsoft.Xna.Framework.Vector2 Terraria.Entity::get_Top()
+IL_031B:  ldarg.0      
+IL_031C:  ldfld        System.Int32 Terraria.Entity::direction
+IL_0321:  ldc.i4.7     
+IL_0322:  mul          
+IL_0323:  conv.r4      
+IL_0324:  ldc.r4       -7
+IL_0329:  newobj       System.Void Microsoft.Xna.Framework.Vector2::.ctor(System.Single,System.Single)
+IL_032E:  call         System.Void Terraria.GameContent.LucyAxeMessage::Create(Terraria.GameContent.LucyAxeMessage/MessageSource,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)
+IL_0333:  ldarg.0      
+IL_0334:  ldarg.3      
+IL_0335:  ldarg.s      y
+IL_0337:  ldc.i4.1     
+IL_0338:  call         System.Void Terraria.Player::ClearMiningCacheAt(System.Int32,System.Int32,System.Int32)
+IL_033D:  ldarg.3      
+IL_033E:  ldarg.s      y
+IL_0340:  ldc.i4.0     
+IL_0341:  ldc.i4.0     
+IL_0342:  ldc.i4.0     
+IL_0343:  call         System.Void Terraria.WorldGen::KillTile(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+IL_0000:  call         System.Void SpiritMod.Utilities.ILEdits.UnfellerTreeEdit::ReplaceTile()
+IL_0348:  ldsfld       System.Int32 Terraria.Main::netMode
+IL_034D:  ldc.i4.1     
+IL_034E:  bne.un.s     IL_0395
+IL_0350:  ldc.i4.s     17
+IL_0352:  ldc.i4.m1    
+IL_0353:  ldc.i4.m1    
+IL_0354:  ldnull       
+IL_0355:  ldc.i4.0     
+IL_0356:  ldarg.3      
+IL_0357:  conv.r4      
+IL_0358:  ldarg.s      y
+IL_035A:  conv.r4      
+IL_035B:  ldc.r4       0
+IL_0360:  ldc.i4.0     
+IL_0361:  ldc.i4.0     
+IL_0362:  ldc.i4.0     
+IL_0363:  call         System.Void Terraria.NetMessage::SendData(System.Int32,System.Int32,System.Int32,Terraria.Localization.NetworkText,System.Int32,System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32)
+IL_0368:  br.s         IL_0395
+IL_036A:  ldarg.3      
+IL_036B:  ldarg.s      y
+IL_036D:  ldc.i4.1     
+IL_036E:  ldc.i4.0     
+IL_036F:  ldc.i4.0     
+IL_0370:  call         System.Void Terraria.WorldGen::KillTile(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+IL_0375:  ldsfld       System.Int32 Terraria.Main::netMode
+IL_037A:  ldc.i4.1     
+IL_037B:  bne.un.s     IL_0395
+IL_037D:  ldc.i4.s     17
+IL_037F:  ldc.i4.m1    
+IL_0380:  ldc.i4.m1    
+IL_0381:  ldnull       
+IL_0382:  ldc.i4.0     
+IL_0383:  ldarg.3      
+IL_0384:  conv.r4      
+IL_0385:  ldarg.s      y
+IL_0387:  conv.r4      
+IL_0388:  ldc.r4       1
+IL_038D:  ldc.i4.0     
+IL_038E:  ldc.i4.0     
+IL_038F:  ldc.i4.0     
+IL_0390:  call         System.Void Terraria.NetMessage::SendData(System.Int32,System.Int32,System.Int32,Terraria.Localization.NetworkText,System.Int32,System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32)
+IL_0395:  ldloc.1      
+IL_0396:  brfalse.s    IL_03A3
+IL_0398:  ldarg.0      
+IL_0399:  ldfld        Terraria.HitTile Terraria.Player::hitTile
+IL_039E:  callvirt     System.Void Terraria.HitTile::Prune()
+IL_03A3:  ldarg.0      
+IL_03A4:  ldarg.1      
+IL_03A5:  ldc.r4       1
+IL_03AA:  ldloca.s     V_3
+IL_03AC:  initobj      System.Nullable`1<System.Boolean>
+IL_03B2:  ldloc.3      
+IL_03B3:  call         System.Void Terraria.Player::ApplyItemTime(Terraria.Item,System.Single,System.Nullable`1<System.Boolean>)
+IL_03B8:  ldc.i4.0     
+IL_03B9:  call         System.Void Terraria.GameContent.Achievements.AchievementsHelper::set_CurrentlyMining(System.Boolean)
+IL_03BE:  br.s         IL_03D8
+IL_03C0:  ldarg.1      
+IL_03C1:  ldfld        System.Int32 Terraria.Item::pick
+IL_03C6:  ldc.i4.0     
+IL_03C7:  ble.s        IL_03D8
+IL_03C9:  ldarg.0      
+IL_03CA:  ldarg.3      
+IL_03CB:  ldarg.s      y
+IL_03CD:  ldarg.1      
+IL_03CE:  ldfld        System.Int32 Terraria.Item::pick
+IL_03D3:  call         System.Void Terraria.Player::PickTile(System.Int32,System.Int32,System.Int32)
+IL_03D8:  ldarg.1      
+IL_03D9:  ldfld        System.Int32 Terraria.Item::pick
+IL_03DE:  ldc.i4.0     
+IL_03DF:  ble.s        IL_03F6
+IL_03E1:  ldarg.0      
+IL_03E2:  ldarg.1      
+IL_03E3:  ldfld        System.Int32 Terraria.Item::useTime
+IL_03E8:  conv.r4      
+IL_03E9:  ldarg.0      
+IL_03EA:  ldfld        System.Single Terraria.Player::pickSpeed
+IL_03EF:  mul          
+IL_03F0:  conv.i4      
+IL_03F1:  stfld        System.Int32 Terraria.Player::itemTime
+IL_03F6:  ldarg.0      
+IL_03F7:  ldarg.1      
+IL_03F8:  ldloc.0      
+IL_03F9:  ldarg.2      
+IL_03FA:  ldarg.3      
+IL_03FB:  ldarg.s      y
+IL_03FD:  call         System.Void Terraria.Player::ItemCheck_UseMiningTools_TryPoundingTile(Terraria.Item,System.Int32,System.Boolean&,System.Int32,System.Int32)
+IL_0402:  ret          

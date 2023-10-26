@@ -1,0 +1,27 @@
+4/2/2023 16:34:07
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Map.MapHelper.LoadMapVersion2(BinaryReader fileIO, Int32 release) in tModLoader\Terraria\Map\MapHelper.cs:line 2563
+   at Terraria.Map.WorldMap.Load() in tModLoader\Terraria\Map\WorldMap.cs:line 97
+
+4/2/2023 21:23:34
+System.IO.IOException: The process cannot access the file 'C:\Users\luisfer153\Documents\My Games\Terraria\tModLoader\Players\luisfer1532\ff173ca9-e69b-4c8c-9cb8-71921ccf5669.tmap' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at Terraria.Utilities.FileUtilities.Write(String path, Byte[] data, Int32 length, Boolean cloud) in tModLoader\Terraria\Utilities\FileUtilities.cs:line 88
+   at Terraria.Utilities.FileUtilities.WriteAllBytes(String path, Byte[] data, Boolean cloud) in tModLoader\Terraria\Utilities\FileUtilities.cs:line 74
+   at Terraria.ModLoader.IO.MapIO.WriteModFile(String path, Boolean isCloudSave) in tModLoader\Terraria\ModLoader\IO\MapIO.cs:line 25
+   at Terraria.Map.MapHelper.InternalSaveMap() in tModLoader\Terraria\Map\MapHelper.cs:line 2416
+   at Terraria.Utilities.FileUtilities.ProtectedInvoke(Action action) in tModLoader\Terraria\Utilities\FileUtilities.cs:line 175
+   at Terraria.Map.MapHelper.SaveMap() in tModLoader\Terraria\Map\MapHelper.cs:line 2149
+
+16/7/2023 17:28:39
+System.IO.IOException: The process cannot access the file 'C:\Users\Administrator\Documents\My Games\Terraria\tModLoader-1.4.3\Players\quetzalcoatl777\bc85eff2-064a-488a-be6f-df9379fb18f7.map' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at Terraria.Utilities.FileUtilities.Write(String path, Byte[] data, Int32 length, Boolean cloud) in tModLoader\Terraria\Utilities\FileUtilities.cs:line 91
+   at Terraria.Map.MapHelper.InternalSaveMap() in tModLoader\Terraria\Map\MapHelper.cs:line 2412
+   at Terraria.Utilities.FileUtilities.ProtectedInvoke(Action action) in tModLoader\Terraria\Utilities\FileUtilities.cs:line 181
+   at Terraria.Map.MapHelper.SaveMap() in tModLoader\Terraria\Map\MapHelper.cs:line 2161
+

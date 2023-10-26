@@ -1,0 +1,260 @@
+[18:47:46.835] [Main Thread/INFO] [tML]: Starting tModLoader client 1.4.4.9+2023.08.3.4|2023.08|stable|Stable|c20ea300efcca9f2605ce4f61ac7d74cd38ef6b7|5250011841536015247 built 10/10/2023 7:51 p. m.
+[18:47:46.853] [Main Thread/INFO] [tML]: Log date: 25/10/2023
+[18:47:46.854] [Main Thread/INFO] [tML]: Running on Windows (v10.0.19045.0) X64 NetCore 6.0.0
+[18:47:46.855] [Main Thread/INFO] [tML]: FrameworkDescription: .NET 6.0.0-rtm.21522.10
+[18:47:46.855] [Main Thread/INFO] [tML]: Executable: F:\ssteam\steamapps\common\tModLoader\tModLoader.dll
+[18:47:46.856] [Main Thread/INFO] [tML]: Working Directory: F:\ssteam\steamapps\common\tModLoader
+[18:47:47.792] [Main Thread/INFO] [tML]: Saves Are Located At: C:\Users\Administrator\Documents\My Games\Terraria\tModLoader
+[18:47:47.837] [Main Thread/INFO] [tML]: Display DPI: Diagonal DPI is 96. Vertical DPI is 96. Horizontal DPI is 96
+[18:47:47.838] [Main Thread/INFO] [tML]: High DPI Display detected: setting FNA to highdpi mode
+[18:47:47.850] [Main Thread/DEBUG] [FNA]: Querying linked library versions...
+[18:47:47.852] [Main Thread/DEBUG] [FNA]: SDL v2.24.0
+[18:47:47.854] [Main Thread/DEBUG] [FNA]: FNA3D v22.8.0
+[18:47:47.860] [Main Thread/DEBUG] [FNA]: FAudio v22.9.1
+[18:47:48.654] [Main Thread/INFO] [tML]: Distribution Platform: Steam. Detection method: CWD is /steamapps/
+[18:47:48.675] [Main Thread/DEBUG] [tML]: Process.Start (UseShellExecute = False): "F:\ssteam\steamapps\common\tModLoader\dotnet\6.0.0\dotnet.exe" tModLoader.dll -terrariasteamclient 1504
+[18:47:49.304] [Main Thread/DEBUG] [TerrariaSteamClient]: Recv: init_success
+[18:47:49.305] [Main Thread/DEBUG] [TerrariaSteamClient]: Send: acknowledged
+[18:47:50.882] [Main Thread/INFO] [Terraria]: Steam Cloud Quota: 883.0 MB available
+[18:47:50.883] [Main Thread/INFO] [tML]: Steam beta branch: None
+[18:47:50.883] [Main Thread/INFO] [tML]: SteamBackend: Running standard Steam Desktop Client API
+[18:47:50.884] [Main Thread/INFO] [tML]: Current 1281930 Workshop Folder Directory: F:\ssteam\steamapps\common\tModLoader\..\..\workshop
+[18:47:51.197] [Main Thread/INFO] [FNA]: SDL Video Diver: windows
+[18:47:51.197] [Main Thread/INFO] [FNA]: FNA3D Driver: D3D11
+[18:47:51.198] [Main Thread/INFO] [FNA]: D3D11 Adapter: NVIDIA GeForce GT 1030
+[18:47:51.218] [Main Thread/INFO] [tML]: Terraria Steam Install Location assumed to be: F:\ssteam\steamapps\common\Terraria
+[18:47:52.198] [Main Thread/INFO] [tML]: Maximum Resolution is 1920 x 1200
+[18:47:52.208] [Main Thread/DEBUG] [Terraria]: Device Created, Adapter: LG TV, DisplayMode: {{Width:1360 Height:768 Format:Color}}, Profile: HiDef, Width: 1360, Height: 745, Fullscreen: False, Display: \\.\DISPLAY1
+[18:47:52.632] [Main Thread/INFO] [FNA]: SDL Audio Diver: 
+[18:47:53.045] [Main Thread/DEBUG] [tML]: Native Resolve: tModLoader, Version=1.4.4.9, Culture=neutral, PublicKeyToken=null -> RzChromaSDK64.dll
+[18:47:53.045] [Main Thread/DEBUG] [tML]: 	not found
+[18:48:04.836] [9/DEBUG] [tML]: SSDP search line seperator: CRLF
+[18:48:26.295] [Main Thread/INFO] [tML]: 3 most recently changed workshop mods: StarsAbove v1.5.3.3 25/10/2023, IPv6Mapper v1.1.0.1 25/10/2023, IncapacitationMod v1.2 21/10/2023
+[18:48:26.298] [Main Thread/INFO] [tML]: Mod Changes since last launch:
+VacuumOreBag
+[18:50:18.750] [.NET ThreadPool Worker/INFO] [tML]: Buscando mods...
+[18:50:18.781] [.NET ThreadPool Worker/INFO] [tML]: Aislando: AnimeOverhaul (Anime Vanity & Pets) v3.2
+[18:50:19.004] [.NET ThreadPool Worker/INFO] [tML]: Aislando: BossChecklist (Boss Checklist) v1.6.2.2
+[18:50:19.025] [.NET ThreadPool Worker/INFO] [tML]: Aislando: CalamityMod (Calamity Mod) v2.0.3.6
+[18:50:19.783] [.NET ThreadPool Worker/INFO] [tML]: Aislando: CalamityModMusic (Calamity Mod Music) v2.0.3.5
+[18:50:19.800] [.NET ThreadPool Worker/INFO] [tML]: Aislando: ClamExtraMusic (Calamity Mod Extra Music) v2.0.0
+[18:50:19.806] [.NET ThreadPool Worker/INFO] [tML]: Aislando: IPv6Mapper (IPv6 Multiplayer Support) v1.1.0.1
+[18:50:19.815] [.NET ThreadPool Worker/INFO] [tML]: Aislando: MeleeEffects (Melee Effects +) v1.4.4.2
+[18:50:19.824] [.NET ThreadPool Worker/INFO] [tML]: Aislando: MusicDisplay (Music Display) v1.2.2
+[18:50:19.832] [.NET ThreadPool Worker/INFO] [tML]: Aislando: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.6
+[18:50:19.844] [.NET ThreadPool Worker/INFO] [tML]: Aislando: RecipeBrowser (Recipe Browser) v0.10.3
+[18:50:19.867] [.NET ThreadPool Worker/INFO] [tML]: Aislando: SubworldLibrary (Subworld Library) v2.2.1.2
+[18:50:19.877] [.NET ThreadPool Worker/INFO] [tML]: Aislando: StarsAbove ([c/EC1B9D:The Stars Above]) v1.5.3.3
+[18:50:20.067] [.NET ThreadPool Worker/INFO] [tML]: Aislando: ThoriumMod (Thorium Mod) v1.7.1.3
+[18:50:20.633] [.NET ThreadPool Worker/INFO] [tML]: Aislando: UnCalamityModMusic (Vanilla Calamity Mod Music) v1.0.10
+[18:50:20.657] [.NET ThreadPool Worker/INFO] [tML]: Aislando: WingSlotExtra (Wing Slot Extra) v1.3.6
+[18:50:20.667] [.NET ThreadPool Worker/INFO] [tML]: Instanciando mods...
+[18:50:21.889] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: ModLoader (tModLoader) v2023.8.3.4
+[18:50:22.131] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: AnimeOverhaul (Anime Vanity & Pets) v3.2
+[18:50:23.095] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: BossChecklist (Boss Checklist) v1.6.2.2
+[18:50:24.119] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist
+[18:50:24.153] [.NET ThreadPool Worker/INFO] [BossChecklist]: Progression values for vanilla entries have been last updated on BossChecklist v1.4.0
+[18:50:24.156] [.NET ThreadPool Worker/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
+[18:50:24.230] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: CalamityMod (Calamity Mod) v2.0.3.6
+[18:50:46.702] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by CalamityMod
+[18:50:46.762] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::QuickMount() added by CalamityMod
+[18:50:46.856] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::dropItemCheck() added by CalamityMod
+[18:50:46.889] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by CalamityMod
+[18:50:46.934] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::Draw(SpriteBatch, Item[], int, int, Vector2, Color) added by CalamityMod
+[18:50:46.938] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by CalamityMod
+[18:50:46.945] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DrawPendingMouseText() added by CalamityMod
+[18:50:46.985] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Item::CanFillEmptyAmmoSlot() added by CalamityMod
+[18:50:50.566] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::DoDraw(GameTime) added by CalamityMod
+[18:50:50.581] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DrawGore() added by CalamityMod
+[18:50:50.598] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DrawCursor(Vector2, bool) added by CalamityMod
+[18:50:50.611] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::SetDisplayMode(int, int, bool) added by CalamityMod
+[18:50:50.614] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::SortDrawCacheWorms() added by CalamityMod
+[18:50:50.621] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityMod
+[18:50:50.631] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::DrawPartialLiquid(bool, Tile, ref Vector2, ref Rectangle, int, ref VertexColors) added by CalamityMod
+[18:50:50.638] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.WaterfallManager::DrawWaterfall(int, int, int, float, Vector2, Rectangle, Color, SpriteEffects) added by CalamityMod
+[18:50:50.649] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Liquid.LiquidRenderer::DrawNormalLiquids(SpriteBatch, Vector2, int, float, bool) added by CalamityMod
+[18:50:50.693] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::oldDrawWater(bool, int, float) added by CalamityMod
+[18:50:50.698] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by CalamityMod
+[18:50:50.709] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::PreDrawTiles(bool, bool, bool) added by CalamityMod
+[18:50:50.728] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::Draw(bool, bool, bool, int) added by CalamityMod
+[18:50:50.734] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.GameContent.ItemDropRules.CommonCode::ModifyItemDropFromNPC(NPC, int) added by CalamityMod
+[18:50:50.736] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityMod
+[18:50:50.739] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityMod
+[18:50:50.743] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityMod
+[18:50:50.745] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityMod
+[18:50:50.766] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime() added by CalamityMod
+[18:50:50.788] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod
+[18:50:50.791] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.NPC::ShouldEmpressBeEnraged() added by CalamityMod
+[18:50:50.795] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::CollectTaxes() added by CalamityMod
+[18:50:50.919] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Projectile::Damage() added by CalamityMod
+[18:50:50.925] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.NPC::ApplyTileCollision(bool, Vector2, int, int) added by CalamityMod
+[18:50:50.993] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::ApplyEquipFunctional(Item, bool) added by CalamityMod
+[18:50:51.002] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::Hurt(PlayerDeathReason, int, int, out HurtInfo, bool, bool, int, bool, float, float, float) added by CalamityMod
+[18:50:51.031] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::DashMovement() added by CalamityMod
+[18:50:51.035] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::DoCommonDashHandle(out int, out bool, DashStartAction) added by CalamityMod
+[18:50:51.041] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::GiveImmuneTimeForCollisionAttack(int) added by CalamityMod
+[18:50:51.050] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::Update_NPCCollision() added by CalamityMod
+[18:50:51.068] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod
+[18:50:51.077] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod
+[18:50:51.081] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Item::AffixName() added by CalamityMod
+[18:50:51.093] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Projectile::NewProjectile(IEntitySource, float, float, float, float, int, int, float, int, float, float, float) added by CalamityMod
+[18:50:51.099] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.NPC::Collision_DecideFallThroughPlatforms() added by CalamityMod
+[18:50:51.181] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Wiring::HitWireSingle(int, int) added by CalamityMod
+[18:50:51.199] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::UpdateItemDye(bool, bool, Item, Item) added by CalamityMod
+[18:50:51.206] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::ApplyLifeAndOrMana(Item) added by CalamityMod
+[18:50:51.219] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::GrappleMovement() added by CalamityMod
+[18:50:51.226] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::UpdatePettingAnimal() added by CalamityMod
+[18:50:51.279] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::PlayerFrame() added by CalamityMod
+[18:50:51.283] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::SlopeDownMovement() added by CalamityMod
+[18:50:51.286] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DamageVar(float, int, float) added by CalamityMod
+[18:50:51.290] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.NPC::ScaleStats_ApplyExpertTweaks() added by CalamityMod
+[18:50:51.531] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Projectile::AI_001() added by CalamityMod
+[18:50:51.556] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Projectile::AI_099_2() added by CalamityMod
+[18:50:51.900] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
+[18:50:51.904] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateJumpHeight() added by CalamityMod
+[18:50:52.412] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[18:50:52.648] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[18:50:52.807] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[18:50:52.814] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::WingMovement() added by CalamityMod
+[18:50:52.828] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateLifeRegen() added by CalamityMod
+[18:50:52.975] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[18:50:52.980] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateManaRegen() added by CalamityMod
+[18:50:52.994] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::Pyramid(int, int) added by CalamityMod
+[18:50:53.028] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::GrowLivingTree(int, int, bool) added by CalamityMod
+[18:50:53.035] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.WorldGen::SmashAltar(int, int) added by CalamityMod
+[18:50:53.086] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::hardUpdateWorld(int, int) added by CalamityMod
+[18:50:53.091] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::Chlorophyte(int, int) added by CalamityMod
+[18:50:53.100] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::SetDefaultOptions() added by CalamityMod
+[18:50:53.108] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::AddWorldSizeOptions(UIElement, float, MouseEvent, string, float) added by CalamityMod
+[18:50:53.113] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.IO.WorldFile::ClearTempTiles() added by CalamityMod
+[18:50:53.223] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
+[18:50:53.226] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Events.Sandstorm::HasSufficientWind() added by CalamityMod
+[18:50:53.232] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Item::TryGetPrefixStatMultipliersForItem(int, out float, out float, out float, out float, out float, out float, out int) added by CalamityMod
+[18:50:53.238] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod
+[18:50:53.241] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Item::CanShimmer() added by CalamityMod
+[18:50:53.246] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Projectile::CanExplodeTile(int, int) added by CalamityMod
+[18:50:53.251] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::UpdateWindyDayState() added by CalamityMod
+[18:50:53.260] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime_StartNight(ref bool) added by CalamityMod
+[18:50:53.265] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::AttemptFossilShattering(int, int, Tile, bool) added by CalamityMod
+[18:50:53.275] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::GetPickaxeDamage(int, int, int, int, Tile) added by CalamityMod
+[18:50:53.281] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::GetAnglerReward(NPC, int) added by CalamityMod
+[18:50:53.290] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.NPC::NPCLoot() added by CalamityMod
+[18:50:53.745] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: CalamityModMusic (Calamity Mod Music) v2.0.3.5
+[18:50:53.890] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: ClamExtraMusic (Calamity Mod Extra Music) v2.0.0
+[18:50:53.994] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: IPv6Mapper (IPv6 Multiplayer Support) v1.1.0.1
+[18:50:54.026] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::TryDisposingEverything() added by IPv6Mapper
+[18:50:54.198] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::DrawMenu(GameTime) added by IPv6Mapper
+[18:50:54.202] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Netplay::StartServer() added by IPv6Mapper
+[18:50:54.204] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::OnSubmitServerIP(string) added by IPv6Mapper
+[18:50:54.209] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Netplay::AddCurrentServerToRecentList() added by IPv6Mapper
+[18:50:54.292] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: MeleeEffects (Melee Effects +) v1.4.4.2
+[18:50:54.432] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: MusicDisplay (Music Display) v1.2.2
+[18:50:54.547] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.6
+[18:50:54.701] [.NET ThreadPool Worker/INFO] [OreExcavator]: Loading [Ore Excavator (1.4.3/1.4.4 Veinminer)] - v0.8.6... (RELEASE)
+[18:50:54.708] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.WorldGen::SpawnFallingBlockProjectile(int, int, Tile, Tile, Tile, int) added by OreExcavator
+[18:50:54.797] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: RecipeBrowser (Recipe Browser) v0.10.3
+[18:50:55.116] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Recipe::FindRecipes(bool) added by RecipeBrowser
+[18:50:55.129] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::AdjTiles() added by RecipeBrowser
+[18:50:55.214] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: SubworldLibrary (Subworld Library) v2.2.1.2
+[18:50:55.271] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::DoDraw(GameTime) added by SubworldLibrary
+[18:50:55.373] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::DrawBackground() added by SubworldLibrary
+[18:50:55.441] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::OldDrawBackground() added by SubworldLibrary
+[18:50:55.462] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::UpdateAudio() added by SubworldLibrary
+[18:50:55.542] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.IngameOptions::Draw(Main, SpriteBatch) added by SubworldLibrary
+[18:50:55.544] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by SubworldLibrary
+[18:50:55.601] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateBiomes() added by SubworldLibrary
+[18:50:55.606] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::DrawUnderworldBackground(bool) added by SubworldLibrary
+[18:50:55.610] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Netplay::AddCurrentServerToRecentList() added by SubworldLibrary
+[18:50:55.615] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::EraseWorld(int) added by SubworldLibrary
+[18:50:55.632] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Main::DoUpdateInWorld(Stopwatch) added by SubworldLibrary
+[18:50:55.635] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::UpdateWorld() added by SubworldLibrary
+[18:50:55.785] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by SubworldLibrary
+[18:50:55.791] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.NPC::UpdateNPC_UpdateGravity() added by SubworldLibrary
+[18:50:55.831] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Liquid::Update() added by SubworldLibrary
+[18:50:55.843] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.Player::SavePlayer(PlayerFileData, bool) added by SubworldLibrary
+[18:50:55.847] [.NET ThreadPool Worker/DEBUG] [tML]: ILHook Terraria.IO.WorldFile::SaveWorld(bool, bool) added by SubworldLibrary
+[18:50:55.932] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: StarsAbove ([c/EC1B9D:The Stars Above]) v1.5.3.3
+[18:50:58.182] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by StarsAbove
+[18:50:58.208] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by StarsAbove
+[18:50:58.579] [.NET ThreadPool Worker/INFO] [StarsAbove]: 'I've always wanted to write text in crash logs!' -A
+[18:50:58.582] [.NET ThreadPool Worker/INFO] [StarsAbove]: 'Eh? Doesn't that make you look like you caused it..?' -E
+[18:50:58.890] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: ThoriumMod (Thorium Mod) v1.7.1.3
+[18:51:10.615] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.ID.ContentSamples+BestiaryHelper::GetSortedBestiaryEntriesList(BestiaryDatabase) added by ThoriumMod
+[18:51:10.858] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::IsAmmoFreeThisShot(Item, Item, int) added by ThoriumMod
+[18:51:11.180] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawSet::BoringSetup_2(Player, List`1, List`1, List`1, Vector2, float, float, Vector2) added by ThoriumMod
+[18:51:11.253] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::PickTile(int, int, int) added by ThoriumMod
+[18:51:11.258] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.HitTile::AddDamage(int, int, bool) added by ThoriumMod
+[18:51:11.523] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Item::CanFillEmptyAmmoSlot() added by ThoriumMod
+[18:51:11.734] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.NPC::DoDeathEvents(Player) added by ThoriumMod
+[18:51:11.739] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.NPC::DespawnEncouragement_AIStyle3_Fighters_NotDiscouraged(int, Vector2, NPC) added by ThoriumMod
+[18:51:11.749] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Graphics.Renderers.LegacyPlayerRenderer::DrawPlayerInternal(Camera, Player, Vector2, float, Vector2, float, float, float, bool) added by ThoriumMod
+[18:51:11.773] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Projectile::Shimmer() added by ThoriumMod
+[18:51:11.823] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::GrappleMovement() added by ThoriumMod
+[18:51:11.827] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.ModLoader.ExtraJumpLoader::RefreshJumps(Player) added by ThoriumMod
+[18:51:11.830] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.IO.WorldFile::ClearTempTiles() added by ThoriumMod
+[18:51:11.836] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::shine(Color, int) added by ThoriumMod
+[18:51:11.840] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::shine(ref Vector3, int) added by ThoriumMod
+[18:51:11.873] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Main::Update(GameTime) added by ThoriumMod
+[18:51:11.876] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.IO.WorldFile::ClearTempTiles() added by ThoriumMod
+[18:51:11.891] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.GameContent.ItemDropRules.ItemDropResolver::TryDropping(DropAttemptInfo) added by ThoriumMod
+[18:51:11.895] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::RollLuck(int) added by ThoriumMod
+[18:51:11.902] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.UICharacter::PreparePetProjectiles() added by ThoriumMod
+[18:51:11.911] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::FreeUpPetsAndMinions(Item) added by ThoriumMod
+[18:51:11.920] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::ItemCheck_StartActualUse(Item) added by ThoriumMod
+[18:51:12.049] [.NET ThreadPool Worker/DEBUG] [tML]: Hook Terraria.Player::ApplyDamageToNPC(NPC, int, float, int, bool, DamageClass, bool) added by ThoriumMod
+[18:51:12.444] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: UnCalamityModMusic (Vanilla Calamity Mod Music) v1.0.10
+[18:51:12.854] [.NET ThreadPool Worker/INFO] [tML]: Cargando mod: WingSlotExtra (Wing Slot Extra) v1.3.6
+[18:51:13.021] [.NET ThreadPool Worker/INFO] [tML]: Redimensionando...
+[18:51:18.101] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: ModLoader (tModLoader) v2023.8.3.4
+[18:51:18.257] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: AnimeOverhaul (Anime Vanity & Pets) v3.2
+[18:51:18.677] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: BossChecklist (Boss Checklist) v1.6.2.2
+[18:51:18.857] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: CalamityMod (Calamity Mod) v2.0.3.6
+[18:51:23.377] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: CalamityModMusic (Calamity Mod Music) v2.0.3.5
+[18:51:23.717] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: ClamExtraMusic (Calamity Mod Extra Music) v2.0.0
+[18:51:23.997] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: IPv6Mapper (IPv6 Multiplayer Support) v1.1.0.1
+[18:51:24.453] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: MeleeEffects (Melee Effects +) v1.4.4.2
+[18:51:24.826] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: MusicDisplay (Music Display) v1.2.2
+[18:51:25.090] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.6
+[18:51:25.280] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: RecipeBrowser (Recipe Browser) v0.10.3
+[18:51:25.437] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: SubworldLibrary (Subworld Library) v2.2.1.2
+[18:51:25.620] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: StarsAbove ([c/EC1B9D:The Stars Above]) v1.5.3.3
+[18:51:26.405] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: ThoriumMod (Thorium Mod) v1.7.1.3
+[18:51:28.889] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: UnCalamityModMusic (Vanilla Calamity Mod Music) v1.0.10
+[18:51:29.180] [.NET ThreadPool Worker/INFO] [tML]: Configurando contenido: WingSlotExtra (Wing Slot Extra) v1.3.6
+[18:51:32.992] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: ModLoader (tModLoader) v2023.8.3.4
+[18:51:34.227] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: AnimeOverhaul (Anime Vanity & Pets) v3.2
+[18:51:34.414] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: BossChecklist (Boss Checklist) v1.6.2.2
+[18:51:34.835] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: CalamityMod (Calamity Mod) v2.0.3.6
+[18:51:36.387] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: CalamityModMusic (Calamity Mod Music) v2.0.3.5
+[18:51:37.800] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: ClamExtraMusic (Calamity Mod Extra Music) v2.0.0
+[18:51:37.991] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: IPv6Mapper (IPv6 Multiplayer Support) v1.1.0.1
+[18:51:38.415] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: MeleeEffects (Melee Effects +) v1.4.4.2
+[18:51:38.819] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: MusicDisplay (Music Display) v1.2.2
+[18:51:39.252] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.6
+[18:51:39.253] [.NET ThreadPool Worker/INFO] [OreExcavator]: Auto-whitelist runner started. Looking for modded ores and gems to whitelist...
+[18:51:39.253] [.NET ThreadPool Worker/INFO] [OreExcavator]: Running through tML Ore Tile Set...
+[18:51:39.254] [.NET ThreadPool Worker/INFO] [OreExcavator]: Ore Set Search completed.
+[18:51:39.254] [.NET ThreadPool Worker/INFO] [OreExcavator]: Beginning manaual ore search...
+[18:51:39.257] [.NET ThreadPool Worker/INFO] [OreExcavator]: Found CalamityMod - But we're already up-to-date with them! v(2.0.3.6) 
+[18:51:39.261] [.NET ThreadPool Worker/INFO] [OreExcavator]: Found ThoriumMod - But we're already up-to-date with them! v(1.7.1.3) 
+[18:51:39.265] [.NET ThreadPool Worker/INFO] [OreExcavator]: Auto-whitelist runner concluded. Finishing up...
+[18:51:39.689] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: RecipeBrowser (Recipe Browser) v0.10.3
+[18:51:39.993] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: SubworldLibrary (Subworld Library) v2.2.1.2
+[18:51:40.424] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: StarsAbove ([c/EC1B9D:The Stars Above]) v1.5.3.3
+[18:51:40.815] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: ThoriumMod (Thorium Mod) v1.7.1.3
+[18:51:42.008] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: UnCalamityModMusic (Vanilla Calamity Mod Music) v1.0.10
+[18:51:42.470] [.NET ThreadPool Worker/INFO] [tML]: Completando contenido: WingSlotExtra (Wing Slot Extra) v1.3.6
+[18:51:42.777] [.NET ThreadPool Worker/INFO] [tML]: RAM: tModLoader usage: 1,8 GB, All processes usage: 7,2 GB, Available: -96,1 MB, Total Installed: 7,2 GB
+[18:51:44.270] [.NET ThreadPool Worker/DEBUG] [tML]: GlobalItem registration stats. Count: 14, Slots per Entity: 5
+	Instanced: 5, Conditional with slot: 0, Conditional by type: 1, Applies to single type: 0
+	List Permutations: 4, Est Memory Consumption: 184 bytes
+[18:51:44.690] [.NET ThreadPool Worker/DEBUG] [tML]: GlobalNPC registration stats. Count: 25, Slots per Entity: 16
+	Instanced: 16, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[18:51:44.807] [.NET ThreadPool Worker/DEBUG] [tML]: GlobalProjectile registration stats. Count: 7, Slots per Entity: 3
+	Instanced: 3, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[18:51:45.976] [.NET ThreadPool Worker/INFO] [tML]: Añadiendo recetas...
+[18:51:46.319] [.NET ThreadPool Worker/WARN] [BossChecklist]: A Collectibles call from CalamityMod contains an invalid key (Terraria EaterofWorldsHead) and will be ignored.
+[18:51:46.319] [.NET ThreadPool Worker/WARN] [BossChecklist]: A Collectibles call from CalamityMod contains an invalid key (Terraria SkeletronHead) and will be ignored.
+[18:56:38.565] [Main Thread/DEBUG] [TerrariaSteamClient]: Send: shutdown

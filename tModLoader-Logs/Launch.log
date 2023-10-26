@@ -1,0 +1,17 @@
+Logging to F:/ssteam/steamapps/common/tModLoader/tModLoader-Logs/Launch.log
+Windows Version 10.0
+Quick Edit Disabled
+Verifying .NET....
+Verifying installation directory...
+Fixing .NET SDL PATH issues
+mv: can't rename 'F:/ssteam/steamapps/common/tModLoader/Libraries/Steamworks.NET': Permission denied
+'F:/ssteam/steamapps/common/tModLoader/Libraries/Steamworks.NET' -> 'F:/ssteam/steamapps/common/tModLoader/Libraries/steamworks.net/Steamworks.NET'
+Success!
+Parsing .NET version requirements from runtimeconfig.json
+Success! dotnet_version=6.0.0
+Checking for old .NET versions to remove from folder
+Cleanup Complete
+Checking dotnet install...
+Dotnet should be present in "F:/ssteam/steamapps/common/tModLoader/dotnet/6.0.0"
+Attempting Launch...
+Launched Using Local Dotnet
