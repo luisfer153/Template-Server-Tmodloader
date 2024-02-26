@@ -25,3 +25,8 @@ System.IO.IOException: The process cannot access the file 'C:\Users\Administrato
    at Terraria.Utilities.FileUtilities.ProtectedInvoke(Action action) in tModLoader\Terraria\Utilities\FileUtilities.cs:line 181
    at Terraria.Map.MapHelper.SaveMap() in tModLoader\Terraria\Map\MapHelper.cs:line 2161
 
+29/1/2024 21:31:32
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Map.MapHelper.LoadMapVersion2(BinaryReader fileIO, Int32 release) in tModLoader\Terraria\Map\MapHelper.cs:line 2928
+   at Terraria.Map.WorldMap.Load() in tModLoader\Terraria\Map\WorldMap.cs:line 103
+

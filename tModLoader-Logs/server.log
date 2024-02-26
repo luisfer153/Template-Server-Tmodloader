@@ -1,34 +1,1407 @@
-[19:02:14.724] [Main Thread/INFO] [tML]: Starting tModLoader server 1.4.4.9+2023.08.3.4|2023.08|stable|Stable|c20ea300efcca9f2605ce4f61ac7d74cd38ef6b7|5250011841536015247 built 10/10/2023 7:51 p. m.
-[19:02:14.733] [Main Thread/INFO] [tML]: Log date: 25/10/2023
-[19:02:14.733] [Main Thread/INFO] [tML]: Running on Windows (v10.0.19045.0) X64 NetCore 6.0.0
-[19:02:14.734] [Main Thread/INFO] [tML]: FrameworkDescription: .NET 6.0.0-rtm.21522.10
-[19:02:14.734] [Main Thread/INFO] [tML]: Executable: F:\ssteam\steamapps\common\tModLoader\tModLoader.dll
-[19:02:14.734] [Main Thread/INFO] [tML]: Working Directory: F:\ssteam\steamapps\common\tModLoader
-[19:02:14.734] [Main Thread/INFO] [tML]: Launch Parameters:  -server -config serverconfig.txt
-[19:02:14.737] [Main Thread/INFO] [tML]: Parsed Launch Parameters: -server -config serverconfig.txt
-[19:02:15.372] [Main Thread/INFO] [tML]: Saves Are Located At: C:\Users\Administrator\Documents\My Games\Terraria\tModLoader
-[19:02:15.871] [Main Thread/INFO] [tML]: Distribution Platform: Steam. Detection method: CWD is /steamapps/
-[19:02:16.048] [Main Thread/INFO] [tML]: Current 1281930 Workshop Folder Directory: .\..\..\workshop
-[19:02:18.212] [Main Thread/DEBUG] [tML]: Network compatibility version is 2023.8.3
-[19:02:29.019] [Main Thread/INFO] [tML]: Finding Mods...
-[19:02:29.055] [Main Thread/INFO] [tML]: Sandboxing: AnimeOverhaul (Anime Vanity & Pets) v3.2
-[19:02:29.217] [Main Thread/INFO] [tML]: Sandboxing: BossChecklist (Boss Checklist) v1.6.2.2
-[19:02:29.231] [Main Thread/INFO] [tML]: Sandboxing: CalamityMod (Calamity Mod) v2.0.3.6
-[19:02:29.906] [Main Thread/INFO] [tML]: Sandboxing: CalamityModMusic (Calamity Mod Music) v2.0.3.5
-[19:02:29.919] [Main Thread/INFO] [tML]: Sandboxing: IPv6Mapper (IPv6 Multiplayer Support) v1.1.0.1
-[19:02:29.925] [Main Thread/INFO] [tML]: Sandboxing: MeleeEffects (Melee Effects +) v1.4.4.2
-[19:02:29.932] [Main Thread/INFO] [tML]: Sandboxing: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.6
-[19:02:29.940] [Main Thread/INFO] [tML]: Sandboxing: RecipeBrowser (Recipe Browser) v0.10.3
-[19:02:29.955] [Main Thread/INFO] [tML]: Sandboxing: SubworldLibrary (Subworld Library) v2.2.1.2
-[19:02:29.963] [Main Thread/INFO] [tML]: Sandboxing: StarsAbove ([c/EC1B9D:The Stars Above]) v1.5.3.3
-[19:02:30.138] [Main Thread/INFO] [tML]: Sandboxing: ThoriumMod (Thorium Mod) v1.7.1.3
-[19:02:30.623] [Main Thread/INFO] [tML]: Sandboxing: UnCalamityModMusic (Vanilla Calamity Mod Music) v1.0.10
-[19:02:30.646] [Main Thread/INFO] [tML]: Sandboxing: WingSlotExtra (Wing Slot Extra) v1.3.6
-[19:02:30.655] [Main Thread/INFO] [tML]: Constructing Mods...
-[19:02:31.498] [Main Thread/INFO] [tML]: Adding Content: ModLoader (tModLoader) v2023.8.3.4
-[19:02:31.639] [Main Thread/INFO] [tML]: Adding Content: AnimeOverhaul (Anime Vanity & Pets) v3.2
-[19:02:32.070] [Main Thread/INFO] [tML]: Adding Content: BossChecklist (Boss Checklist) v1.6.2.2
-[19:02:32.349] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist
-[19:02:32.380] [Main Thread/INFO] [BossChecklist]: Progression values for vanilla entries have been last updated on BossChecklist v1.4.0
-[19:02:32.380] [Main Thread/INFO] [BossChecklist]: Boss Log integration messages will not be logged.
-[19:02:32.435] [Main Thread/INFO] [tML]: Adding Content: CalamityMod (Calamity Mod) v2.0.3.6
+[15:30:54.871] [Main Thread/INFO] [tML]: Starting tModLoader server 1.4.4.9+2023.12.3.1|2023.12|stable|Stable|13b2d724a2e0993eedd7e7db1798a1ed24672f74|5250112128237514429 built 3/02/2024 9:36 p. m.
+[15:30:54.881] [Main Thread/INFO] [tML]: Log date: 25/02/2024
+[15:30:54.882] [Main Thread/INFO] [tML]: Running on Windows (v10.0.19045.0) X64 NetCore 6.0.14
+[15:30:54.883] [Main Thread/INFO] [tML]: FrameworkDescription: .NET 6.0.14
+[15:30:54.883] [Main Thread/INFO] [tML]: Executable: F:\ssteam\steamapps\common\tModLoader\tModLoader.dll
+[15:30:54.883] [Main Thread/INFO] [tML]: Working Directory: F:\ssteam\steamapps\common\tModLoader
+[15:30:54.884] [Main Thread/INFO] [tML]: Launch Parameters: -server -config serverconfig.txt
+[15:30:54.887] [Main Thread/INFO] [tML]: Parsed Launch Parameters: -server -config serverconfig.txt
+[15:30:55.559] [Main Thread/INFO] [tML]: Saves Are Located At: C:\Users\Administrator\Documents\My Games\Terraria\tModLoader
+[15:30:56.145] [Main Thread/INFO] [tML]: Distribution Platform: Steam. Detection method: CWD is /steamapps/
+[15:30:56.346] [Main Thread/INFO] [tML]: Current 1281930 Workshop Folder Directory: .\..\..\workshop
+[15:30:58.444] [Main Thread/DEBUG] [tML]: Network compatibility version is 2023.12.3
+[15:31:09.638] [Main Thread/INFO] [tML]: Finding Mods...
+[15:31:09.682] [Main Thread/INFO] [tML]: Sandboxing: BDFXmod (Block's Death FX) v1.4.3.3
+[15:31:09.817] [Main Thread/INFO] [tML]: Sandboxing: BossChecklist (Boss Checklist) v2.1.3
+[15:31:09.834] [Main Thread/INFO] [tML]: Sandboxing: CalamityMod (Calamity Mod) v2.0.3.9
+[15:31:10.517] [Main Thread/INFO] [tML]: Sandboxing: CalamityModEsp (Calamity mod Traducción Español/Calamity Mod spanish translation) v1.11.0.0
+[15:31:10.524] [Main Thread/INFO] [tML]: Sandboxing: CalamityModMusic (Calamity Mod Music) v2.0.3.7
+[15:31:10.536] [Main Thread/INFO] [tML]: Sandboxing: CalamityOverhaul (Calamity Overhaul) v0.342
+[15:31:10.604] [Main Thread/INFO] [tML]: Sandboxing: ClickerClass (The Clicker Class) v1.4.1
+[15:31:10.643] [Main Thread/INFO] [tML]: Sandboxing: Fargowiltas (Fargo's Mutant Mod) v3.3
+[15:31:10.682] [Main Thread/INFO] [tML]: Sandboxing: MBStats (Multiplayer Boss-Fight Stats) v0.4.7
+[15:31:10.688] [Main Thread/INFO] [tML]: Sandboxing: NoMoreTombs (No More Tombs) v2.0
+[15:31:10.694] [Main Thread/INFO] [tML]: Sandboxing: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.7
+[15:31:10.702] [Main Thread/INFO] [tML]: Sandboxing: ThoriumMod (Thorium Mod) v1.7.1.5
+[15:31:11.215] [Main Thread/INFO] [tML]: Sandboxing: RagnarokMod (RagnarokMod) v1.2
+[15:31:11.225] [Main Thread/INFO] [tML]: Sandboxing: RecipeBrowser (Recipe Browser) v0.10.3.1
+[15:31:11.242] [Main Thread/INFO] [tML]: Sandboxing: SerousCommonLib (absoluteAquarian Utilities) v1.0.5.1
+[15:31:11.257] [Main Thread/INFO] [tML]: Sandboxing: StructureHelper (Structure Helper) v2.4.0
+[15:31:11.267] [Main Thread/INFO] [tML]: Sandboxing: SubworldLibrary (Subworld Library) v2.2.2.1
+[15:31:11.275] [Main Thread/INFO] [tML]: Sandboxing: UnCalamityModMusic (Vanilla Calamity Mod Music) v1.11.1
+[15:31:11.298] [Main Thread/INFO] [tML]: Sandboxing: WingSlotExtra (Wing Slot Extra) v1.4.4
+[15:31:11.308] [Main Thread/INFO] [tML]: Constructing Mods...
+[15:31:12.626] [Main Thread/INFO] [tML]: Adding Content: ModLoader (tModLoader) v2023.12.3.1
+[15:31:12.769] [Main Thread/INFO] [tML]: Adding Content: BDFXmod (Block's Death FX) v1.4.3.3
+[15:31:13.127] [Main Thread/INFO] [tML]: Adding Content: BossChecklist (Boss Checklist) v2.1.3
+[15:31:13.579] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_StartDay(ref bool) added by BossChecklist
+[15:31:13.613] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_StartNight(ref bool) added by BossChecklist
+[15:31:13.668] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyMusicBox(Item) added by BossChecklist
+[15:31:13.725] [Main Thread/INFO] [tML]: Adding Content: CalamityMod (Calamity Mod) v2.0.3.9
+[15:31:31.691] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by CalamityMod
+[15:31:31.703] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::QuickMount() added by CalamityMod
+[15:31:31.740] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::dropItemCheck() added by CalamityMod
+[15:31:31.763] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by CalamityMod
+[15:31:31.820] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::Draw(SpriteBatch, Item[], int, int, Vector2, Color) added by CalamityMod
+[15:31:31.823] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by CalamityMod
+[15:31:31.827] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawPendingMouseText() added by CalamityMod
+[15:31:31.867] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::CanFillEmptyAmmoSlot() added by CalamityMod
+[15:31:32.447] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawProjectiles() added by CalamityMod
+[15:31:32.483] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawNPCs(bool) added by CalamityMod
+[15:31:32.604] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DoDraw(GameTime) added by CalamityMod
+[15:31:32.621] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawGore() added by CalamityMod
+[15:31:32.635] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawCursor(Vector2, bool) added by CalamityMod
+[15:31:32.638] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::SortDrawCacheWorms() added by CalamityMod
+[15:31:32.646] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityMod
+[15:31:32.655] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::DrawPartialLiquid(bool, Tile, ref Vector2, ref Rectangle, int, ref VertexColors) added by CalamityMod
+[15:31:32.661] [Main Thread/DEBUG] [tML]: Hook Terraria.WaterfallManager::DrawWaterfall(int, int, int, float, Vector2, Rectangle, Color, SpriteEffects) added by CalamityMod
+[15:31:32.674] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Liquid.LiquidRenderer::DrawNormalLiquids(SpriteBatch, Vector2, int, float, bool) added by CalamityMod
+[15:31:32.732] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::oldDrawWater(bool, int, float) added by CalamityMod
+[15:31:32.737] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by CalamityMod
+[15:31:32.743] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::PreDrawTiles(bool, bool, bool) added by CalamityMod
+[15:31:32.767] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::Draw(bool, bool, bool, int) added by CalamityMod
+[15:31:32.773] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ItemDropRules.CommonCode::ModifyItemDropFromNPC(NPC, int) added by CalamityMod
+[15:31:32.785] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdateItemDye(bool, bool, Item, Item) added by CalamityMod
+[15:31:32.866] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyEquipFunctional(Item, bool) added by CalamityMod
+[15:31:32.871] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyEquipVanity(Item) added by CalamityMod
+[15:31:32.936] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdateArmorSets(int) added by CalamityMod
+[15:31:32.957] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime() added by CalamityMod
+[15:31:32.984] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod
+[15:31:32.988] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::ShouldEmpressBeEnraged() added by CalamityMod
+[15:31:32.992] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::CollectTaxes() added by CalamityMod
+[15:31:33.178] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::Damage() added by CalamityMod
+[15:31:33.182] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::ApplyTileCollision(bool, Vector2, int, int) added by CalamityMod
+[15:31:33.214] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ApplyEquipFunctional(Item, bool) added by CalamityMod
+[15:31:33.224] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Hurt(PlayerDeathReason, int, int, out HurtInfo, bool, bool, int, bool, float, float, float) added by CalamityMod
+[15:31:33.271] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::DashMovement() added by CalamityMod
+[15:31:33.275] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::DoCommonDashHandle(out int, out bool, DashStartAction) added by CalamityMod
+[15:31:33.278] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::GiveImmuneTimeForCollisionAttack(int) added by CalamityMod
+[15:31:33.291] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update_NPCCollision() added by CalamityMod
+[15:31:33.321] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod
+[15:31:33.330] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod
+[15:31:33.333] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::AffixName() added by CalamityMod
+[15:31:33.345] [Main Thread/DEBUG] [tML]: Hook Terraria.Projectile::NewProjectile(IEntitySource, float, float, float, float, int, int, float, int, float, float, float) added by CalamityMod
+[15:31:33.350] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::Collision_DecideFallThroughPlatforms() added by CalamityMod
+[15:31:33.454] [Main Thread/DEBUG] [tML]: ILHook Terraria.Wiring::HitWireSingle(int, int) added by CalamityMod
+[15:31:33.455] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdateItemDye(bool, bool, Item, Item) added by CalamityMod
+[15:31:33.461] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ApplyLifeAndOrMana(Item) added by CalamityMod
+[15:31:33.486] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrappleMovement() added by CalamityMod
+[15:31:33.490] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdatePettingAnimal() added by CalamityMod
+[15:31:33.562] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::PlayerFrame() added by CalamityMod
+[15:31:33.565] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::SlopeDownMovement() added by CalamityMod
+[15:31:33.568] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DamageVar(float, int, float) added by CalamityMod
+[15:31:33.571] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::ScaleStats_ApplyExpertTweaks() added by CalamityMod
+[15:31:33.905] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::AI_001() added by CalamityMod
+[15:31:33.931] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::AI_099_2() added by CalamityMod
+[15:31:34.145] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
+[15:31:34.150] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateJumpHeight() added by CalamityMod
+[15:31:34.515] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[15:31:34.671] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[15:31:34.818] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[15:31:34.826] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::WingMovement() added by CalamityMod
+[15:31:34.849] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateLifeRegen() added by CalamityMod
+[15:31:34.990] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[15:31:35.015] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateManaRegen() added by CalamityMod
+[15:31:35.025] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::StatusPlayer(int) added by CalamityMod
+[15:31:35.048] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::Pyramid(int, int) added by CalamityMod
+[15:31:35.101] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::GrowLivingTree(int, int, bool) added by CalamityMod
+[15:31:35.112] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::SmashAltar(int, int) added by CalamityMod
+[15:31:35.177] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::hardUpdateWorld(int, int) added by CalamityMod
+[15:31:35.182] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::Chlorophyte(int, int) added by CalamityMod
+[15:31:35.190] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::SetDefaultOptions() added by CalamityMod
+[15:31:35.201] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::AddWorldSizeOptions(UIElement, float, MouseEvent, string, float) added by CalamityMod
+[15:31:35.205] [Main Thread/DEBUG] [tML]: Hook Terraria.IO.WorldFile::ClearTempTiles() added by CalamityMod
+[15:31:35.297] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::MakeDungeon(int, int) added by CalamityMod
+[15:31:35.329] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::DungeonHalls(int, int, ushort, int, bool) added by CalamityMod
+[15:31:35.377] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::MakeDungeon(int, int) added by CalamityMod
+[15:31:35.461] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
+[15:31:35.464] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Events.Sandstorm::HasSufficientWind() added by CalamityMod
+[15:31:35.470] [Main Thread/DEBUG] [tML]: ILHook Terraria.Item::TryGetPrefixStatMultipliersForItem(int, out float, out float, out float, out float, out float, out float, out int) added by CalamityMod
+[15:31:35.476] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod
+[15:31:35.480] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ShimmerTransforms::IsItemTransformLocked(int) added by CalamityMod
+[15:31:35.484] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::CanExplodeTile(int, int) added by CalamityMod
+[15:31:35.490] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateWindyDayState() added by CalamityMod
+[15:31:35.497] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime_StartNight(ref bool) added by CalamityMod
+[15:31:35.501] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::AttemptFossilShattering(int, int, Tile, bool) added by CalamityMod
+[15:31:35.517] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GetPickaxeDamage(int, int, int, int, Tile) added by CalamityMod
+[15:31:35.523] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GetAnglerReward(NPC, int) added by CalamityMod
+[15:31:35.533] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::NPCLoot() added by CalamityMod
+[15:31:35.769] [Main Thread/INFO] [tML]: Adding Content: CalamityModEsp (Calamity mod Traducción Español/Calamity Mod spanish translation) v1.11.0.0
+[15:31:35.973] [Main Thread/INFO] [tML]: Adding Content: CalamityModMusic (Calamity Mod Music) v2.0.3.7
+[15:31:36.165] [Main Thread/INFO] [tML]: Adding Content: CalamityOverhaul (Calamity Overhaul) v0.342
+[15:31:37.700] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Graphics.Renderers.CalamityRenderers.HolyInfernoRenderer::DrawToTarget(SpriteBatch) added by CalamityOverhaul
+[15:31:37.715] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Effects.FilterManager::EndCapture(RenderTarget2D, RenderTarget2D, RenderTarget2D, Color) added by CalamityOverhaul
+[15:31:37.724] [Main Thread/WARN] [tML]: CalamityOverhaul.Content.Items.Melee.Extras.StormGoddessSpear has reference fields (<Legend>k__BackingField) that may not be safe to share between clones.
+For deep-cloning, add a custom Clone override and make proper copies of these fields. If shallow (memberwise) cloning is acceptable, mark the fields with [CloneByReference] or properties with [field: CloneByReference]
+[15:31:37.726] [Main Thread/WARN] [tML]: CalamityOverhaul.Content.Items.Ranged.Extras.HeavenfallLongbow has reference fields (<Legend>k__BackingField) that may not be safe to share between clones.
+For deep-cloning, add a custom Clone override and make proper copies of these fields. If shallow (memberwise) cloning is acceptable, mark the fields with [CloneByReference] or properties with [field: CloneByReference]
+[15:31:37.727] [Main Thread/WARN] [tML]: CalamityOverhaul.Content.Items.Rogue.Extras.Gangarus has reference fields (<Legend>k__BackingField) that may not be safe to share between clones.
+For deep-cloning, add a custom Clone override and make proper copies of these fields. If shallow (memberwise) cloning is acceptable, mark the fields with [CloneByReference] or properties with [field: CloneByReference]
+[15:31:37.729] [Main Thread/WARN] [tML]: CalamityOverhaul.Content.Items.Tools.DarkMatterBall has reference fields (dorpTypes, dorpItems) that may not be safe to share between clones.
+For deep-cloning, add a custom Clone override and make proper copies of these fields. If shallow (memberwise) cloning is acceptable, mark the fields with [CloneByReference] or properties with [field: CloneByReference]
+[15:31:37.738] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.NPCLoader::OnHitByProjectile(NPC, Projectile, ref HitInfo, int) added by CalamityOverhaul
+[15:31:37.746] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.NPCLoader::ModifyIncomingHit(NPC, ref HitModifiers) added by CalamityOverhaul
+[15:31:37.762] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.ItemLoader::Shoot(Item, Player, EntitySource_ItemUse_WithAmmo, Vector2, Vector2, int, int, float, bool) added by CalamityOverhaul
+[15:31:37.777] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.ItemLoader::OnHitNPC(Item, Player, NPC, ref HitInfo, int) added by CalamityOverhaul
+[15:31:37.782] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.ItemLoader::OnHitPvp(Item, Player, Player, HurtInfo) added by CalamityOverhaul
+[15:31:37.786] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.ItemLoader::ModifyHitNPC(Item, Player, NPC, ref HitModifiers) added by CalamityOverhaul
+[15:31:37.790] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.ItemLoader::CanUseItem(Item, Player) added by CalamityOverhaul
+[15:31:37.795] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.ItemLoader::PreDrawInInventory(Item, SpriteBatch, Vector2, Rectangle, Color, Color, Vector2, float) added by CalamityOverhaul
+[15:31:37.800] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityOverhaul
+[15:31:37.876] [Main Thread/INFO] [tML]: Adding Content: ClickerClass (The Clicker Class) v1.4.1
+[15:31:38.648] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::NewItem(IEntitySource, int, int, int, int, int, int, bool, int, bool, bool) added by ClickerClass
+[15:31:38.669] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::NewItem_Inner(IEntitySource, int, int, int, int, Item, int, int, bool, int, bool, bool) added by ClickerClass
+[15:31:38.674] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::CanShimmer() added by ClickerClass
+[15:31:38.770] [Main Thread/INFO] [tML]: Adding Content: Fargowiltas (Fargo's Mutant Mod) v3.3
+[15:31:39.413] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::DoCommonDashHandle(out int, out bool, DashStartAction) added by Fargowiltas
+[15:31:39.414] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by Fargowiltas
+[15:31:39.417] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyHoldDown(int, int) added by Fargowiltas
+[15:31:39.423] [Main Thread/DEBUG] [tML]: Hook Terraria.Recipe::FindRecipes(bool) added by Fargowiltas
+[15:31:39.426] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::CountTileTypesInArea(Int32[], int, int, int, int) added by Fargowiltas
+[15:31:39.430] [Main Thread/DEBUG] [tML]: Hook Terraria.SceneMetrics::ExportTileCountsToMain() added by Fargowiltas
+[15:31:39.436] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::HasUnityPotion() added by Fargowiltas
+[15:31:39.442] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::TakeUnityPotion() added by Fargowiltas
+[15:31:39.539] [Main Thread/INFO] [tML]: Adding Content: MBStats (Multiplayer Boss-Fight Stats) v0.4.7
+[15:31:39.690] [Main Thread/INFO] [tML]: Adding Content: NoMoreTombs (No More Tombs) v2.0
+[15:31:39.708] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::DropTombstone(long, NetworkText, int) added by NoMoreTombs
+[15:31:39.731] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::KillMe(PlayerDeathReason, double, int, bool) added by NoMoreTombs
+[15:31:39.750] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::checkDead() added by NoMoreTombs
+[15:31:39.822] [Main Thread/INFO] [tML]: Adding Content: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.7
+[15:31:39.964] [Main Thread/INFO] [OreExcavator]: Loading [Ore Excavator (1.4.3/1.4.4 Veinminer)] - v0.8.7... (RELEASE)
+[15:31:39.975] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::SpawnFallingBlockProjectile(int, int, Tile, Tile, Tile, int) added by OreExcavator
+[15:31:40.052] [Main Thread/INFO] [tML]: Adding Content: ThoriumMod (Thorium Mod) v1.7.1.5
+[15:31:50.350] [Main Thread/DEBUG] [tML]: Hook Terraria.ID.ContentSamples+BestiaryHelper::GetSortedBestiaryEntriesList(BestiaryDatabase) added by ThoriumMod
+[15:31:50.444] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::IsAmmoFreeThisShot(Item, Item, int) added by ThoriumMod
+[15:31:50.641] [Main Thread/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawSet::BoringSetup_2(Player, List`1, List`1, List`1, Vector2, float, float, Vector2) added by ThoriumMod
+[15:31:50.672] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::PickTile(int, int, int) added by ThoriumMod
+[15:31:50.676] [Main Thread/DEBUG] [tML]: Hook Terraria.HitTile::AddDamage(int, int, bool) added by ThoriumMod
+[15:31:50.822] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::CanFillEmptyAmmoSlot() added by ThoriumMod
+[15:31:50.897] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::DoDeathEvents(Player) added by ThoriumMod
+[15:31:50.901] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::DespawnEncouragement_AIStyle3_Fighters_NotDiscouraged(int, Vector2, NPC) added by ThoriumMod
+[15:31:50.910] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Renderers.LegacyPlayerRenderer::DrawPlayerInternal(Camera, Player, Vector2, float, Vector2, float, float, float, bool) added by ThoriumMod
+[15:31:50.926] [Main Thread/DEBUG] [tML]: Hook Terraria.Projectile::Shimmer() added by ThoriumMod
+[15:31:50.967] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrappleMovement() added by ThoriumMod
+[15:31:50.970] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.ExtraJumpLoader::RefreshJumps(Player) added by ThoriumMod
+[15:31:50.972] [Main Thread/DEBUG] [tML]: Hook Terraria.IO.WorldFile::ClearTempTiles() added by ThoriumMod
+[15:31:50.978] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::shine(Color, int) added by ThoriumMod
+[15:31:50.994] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::shine(ref Vector3, int) added by ThoriumMod
+[15:31:51.000] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::KillTile_ShouldDropSeeds(int, int) added by ThoriumMod
+[15:31:51.009] [Main Thread/DEBUG] [tML]: Hook Terraria.IO.WorldFile::ClearTempTiles() added by ThoriumMod
+[15:31:51.023] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::SetupStatueList() added by ThoriumMod
+[15:31:51.031] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ItemDropRules.ItemDropResolver::TryDropping(DropAttemptInfo) added by ThoriumMod
+[15:31:51.034] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::RollLuck(int) added by ThoriumMod
+[15:31:51.039] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.UICharacter::PreparePetProjectiles() added by ThoriumMod
+[15:31:51.051] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::FreeUpPetsAndMinions(Item) added by ThoriumMod
+[15:31:51.055] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ItemCheck_StartActualUse(Item) added by ThoriumMod
+[15:31:51.060] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyDamageToNPC(NPC, int, float, int, bool, DamageClass, bool) added by ThoriumMod
+[15:31:51.326] [Main Thread/INFO] [tML]: Adding Content: RagnarokMod (RagnarokMod) v1.2
+[15:31:51.441] [Main Thread/INFO] [tML]: Adding Content: RecipeBrowser (Recipe Browser) v0.10.3.1
+[15:31:51.744] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::AdjTiles() added by RecipeBrowser
+[15:31:51.830] [Main Thread/INFO] [tML]: Adding Content: SerousCommonLib (absoluteAquarian Utilities) v1.0.5.1
+[15:31:51.917] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.TileLoader::NearbyEffects(int, int, int, bool) added by SerousCommonLib
+[15:31:52.010] [Main Thread/INFO] [tML]: Adding Content: StructureHelper (Structure Helper) v2.4.0
+[15:31:52.123] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInterface(GameTime) added by StructureHelper
+[15:31:52.128] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawPlayers_AfterProjectiles() added by StructureHelper
+[15:31:52.139] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::SlopeTile(int, int, int, bool) added by StructureHelper
+[15:31:52.152] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::CheckMonoliths() added by StructureHelper
+[15:31:52.243] [Main Thread/INFO] [tML]: Adding Content: SubworldLibrary (Subworld Library) v2.2.2.1
+[15:31:52.420] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DedServ_PostModLoad(out bool) added by SubworldLibrary
+[15:31:52.434] [Main Thread/DEBUG] [tML]: ILHook Terraria.NetMessage::CheckBytes(int) added by SubworldLibrary
+[15:31:52.440] [Main Thread/DEBUG] [tML]: ILHook Terraria.Net.Sockets.SocialSocket::Terraria.Net.Sockets.ISocket.AsyncSend(Byte[], int, int, SocketSendCallback, object) added by SubworldLibrary
+[15:31:52.449] [Main Thread/DEBUG] [tML]: ILHook Terraria.Net.Sockets.TcpSocket::Terraria.Net.Sockets.ISocket.AsyncSend(Byte[], int, int, SocketSendCallback, object) added by SubworldLibrary
+[15:31:52.456] [Main Thread/DEBUG] [tML]: ILHook Terraria.Netplay::UpdateConnectedClients() added by SubworldLibrary
+[15:31:52.483] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::EraseWorld(int) added by SubworldLibrary
+[15:31:52.519] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DoUpdateInWorld(Stopwatch) added by SubworldLibrary
+[15:31:52.522] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::UpdateWorld() added by SubworldLibrary
+[15:31:52.708] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by SubworldLibrary
+[15:31:52.713] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::UpdateNPC_UpdateGravity() added by SubworldLibrary
+[15:31:52.758] [Main Thread/DEBUG] [tML]: ILHook Terraria.Liquid::Update() added by SubworldLibrary
+[15:31:52.764] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::SavePlayer(PlayerFileData, bool) added by SubworldLibrary
+[15:31:52.768] [Main Thread/DEBUG] [tML]: ILHook Terraria.IO.WorldFile::SaveWorld(bool, bool) added by SubworldLibrary
+[15:31:52.868] [Main Thread/INFO] [tML]: Adding Content: UnCalamityModMusic (Vanilla Calamity Mod Music) v1.11.1
+[15:31:53.237] [Main Thread/INFO] [tML]: Adding Content: WingSlotExtra (Wing Slot Extra) v1.4.4
+[15:31:53.365] [Main Thread/INFO] [tML]: Resizing...
+[15:31:54.548] [Main Thread/INFO] [tML]: Configuring Content: ModLoader (tModLoader) v2023.12.3.1
+[15:31:54.676] [Main Thread/INFO] [tML]: Configuring Content: BDFXmod (Block's Death FX) v1.4.3.3
+[15:31:54.779] [Main Thread/INFO] [tML]: Configuring Content: BossChecklist (Boss Checklist) v2.1.3
+[15:31:54.872] [Main Thread/INFO] [tML]: Configuring Content: CalamityMod (Calamity Mod) v2.0.3.9
+[15:31:55.441] [Main Thread/INFO] [tML]: Configuring Content: CalamityModEsp (Calamity mod Traducción Español/Calamity Mod spanish translation) v1.11.0.0
+[15:31:55.545] [Main Thread/INFO] [tML]: Configuring Content: CalamityModMusic (Calamity Mod Music) v2.0.3.7
+[15:31:55.643] [Main Thread/INFO] [tML]: Configuring Content: CalamityOverhaul (Calamity Overhaul) v0.342
+[15:31:55.746] [Main Thread/INFO] [tML]: Configuring Content: ClickerClass (The Clicker Class) v1.4.1
+[15:31:55.853] [Main Thread/INFO] [tML]: Configuring Content: Fargowiltas (Fargo's Mutant Mod) v3.3
+[15:31:55.957] [Main Thread/INFO] [tML]: Configuring Content: MBStats (Multiplayer Boss-Fight Stats) v0.4.7
+[15:31:56.056] [Main Thread/INFO] [tML]: Configuring Content: NoMoreTombs (No More Tombs) v2.0
+[15:31:56.156] [Main Thread/INFO] [tML]: Configuring Content: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.7
+[15:31:56.253] [Main Thread/INFO] [tML]: Configuring Content: ThoriumMod (Thorium Mod) v1.7.1.5
+[15:31:56.559] [Main Thread/INFO] [tML]: Configuring Content: RagnarokMod (RagnarokMod) v1.2
+[15:31:56.662] [Main Thread/INFO] [tML]: Configuring Content: RecipeBrowser (Recipe Browser) v0.10.3.1
+[15:31:56.768] [Main Thread/INFO] [tML]: Configuring Content: SerousCommonLib (absoluteAquarian Utilities) v1.0.5.1
+[15:31:56.869] [Main Thread/INFO] [tML]: Configuring Content: StructureHelper (Structure Helper) v2.4.0
+[15:31:56.972] [Main Thread/INFO] [tML]: Configuring Content: SubworldLibrary (Subworld Library) v2.2.2.1
+[15:31:57.071] [Main Thread/INFO] [tML]: Configuring Content: UnCalamityModMusic (Vanilla Calamity Mod Music) v1.11.1
+[15:31:57.178] [Main Thread/INFO] [tML]: Configuring Content: WingSlotExtra (Wing Slot Extra) v1.4.4
+[15:31:57.839] [Main Thread/INFO] [tML]: Finalizing Content: ModLoader (tModLoader) v2023.12.3.1
+[15:31:57.959] [Main Thread/INFO] [tML]: Finalizing Content: BDFXmod (Block's Death FX) v1.4.3.3
+[15:31:58.073] [Main Thread/INFO] [tML]: Finalizing Content: BossChecklist (Boss Checklist) v2.1.3
+[15:31:58.189] [Main Thread/INFO] [tML]: Finalizing Content: CalamityMod (Calamity Mod) v2.0.3.9
+[15:31:58.326] [Main Thread/INFO] [tML]: Finalizing Content: CalamityModEsp (Calamity mod Traducción Español/Calamity Mod spanish translation) v1.11.0.0
+[15:31:58.446] [Main Thread/INFO] [tML]: Finalizing Content: CalamityModMusic (Calamity Mod Music) v2.0.3.7
+[15:31:58.571] [Main Thread/INFO] [tML]: Finalizing Content: CalamityOverhaul (Calamity Overhaul) v0.342
+[15:31:58.735] [Main Thread/INFO] [tML]: Finalizing Content: ClickerClass (The Clicker Class) v1.4.1
+[15:31:58.856] [Main Thread/INFO] [tML]: Finalizing Content: Fargowiltas (Fargo's Mutant Mod) v3.3
+[15:31:58.980] [Main Thread/INFO] [tML]: Finalizing Content: MBStats (Multiplayer Boss-Fight Stats) v0.4.7
+[15:31:59.099] [Main Thread/INFO] [tML]: Finalizing Content: NoMoreTombs (No More Tombs) v2.0
+[15:31:59.220] [Main Thread/INFO] [tML]: Finalizing Content: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.7
+[15:31:59.220] [Main Thread/INFO] [OreExcavator]: Auto-whitelist runner started. Looking for modded ores and gems to whitelist...
+[15:31:59.220] [Main Thread/INFO] [OreExcavator]: Running through tML Ore Tile Set...
+[15:31:59.221] [Main Thread/INFO] [OreExcavator]: Ore Set Search completed.
+[15:31:59.221] [Main Thread/INFO] [OreExcavator]: Beginning manaual ore search...
+[15:31:59.223] [Main Thread/INFO] [OreExcavator]: Found CalamityMod - But we're already up-to-date with them! v(2.0.3.9) 
+[15:31:59.224] [Main Thread/INFO] [OreExcavator]: Found ThoriumMod - But we're already up-to-date with them! v(1.7.1.5) 
+[15:31:59.225] [Main Thread/INFO] [OreExcavator]: Auto-whitelist runner concluded. Finishing up...
+[15:31:59.339] [Main Thread/INFO] [tML]: Finalizing Content: ThoriumMod (Thorium Mod) v1.7.1.5
+[15:31:59.584] [Main Thread/INFO] [tML]: Finalizing Content: RagnarokMod (RagnarokMod) v1.2
+[15:31:59.698] [Main Thread/INFO] [tML]: Finalizing Content: RecipeBrowser (Recipe Browser) v0.10.3.1
+[15:31:59.813] [Main Thread/INFO] [tML]: Finalizing Content: SerousCommonLib (absoluteAquarian Utilities) v1.0.5.1
+[15:31:59.926] [Main Thread/INFO] [tML]: Finalizing Content: StructureHelper (Structure Helper) v2.4.0
+[15:32:00.041] [Main Thread/INFO] [tML]: Finalizing Content: SubworldLibrary (Subworld Library) v2.2.2.1
+[15:32:00.154] [Main Thread/INFO] [tML]: Finalizing Content: UnCalamityModMusic (Vanilla Calamity Mod Music) v1.11.1
+[15:32:00.270] [Main Thread/INFO] [tML]: Finalizing Content: WingSlotExtra (Wing Slot Extra) v1.4.4
+[15:32:00.404] [Main Thread/INFO] [tML]: RAM: tModLoader usage: 516.2 MB, All processes usage: 5.5 GB, Available: 2.0 GB, Total Installed: 7.5 GB
+[15:32:01.060] [Main Thread/DEBUG] [tML]: GlobalItem registration stats. Count: 23, Slots per Entity: 5
+	Instanced: 5, Conditional with slot: 1, Conditional by type: 5, Applies to single type: 1
+	List Permutations: 30, Est Memory Consumption: 2296 bytes
+[15:32:01.340] [Main Thread/DEBUG] [tML]: GlobalNPC registration stats. Count: 19, Slots per Entity: 10
+	Instanced: 10, Conditional with slot: 1, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 4, Est Memory Consumption: 312 bytes
+[15:32:01.462] [Main Thread/DEBUG] [tML]: GlobalProjectile registration stats. Count: 11, Slots per Entity: 6
+	Instanced: 6, Conditional with slot: 1, Conditional by type: 2, Applies to single type: 1
+	List Permutations: 13, Est Memory Consumption: 760 bytes
+[15:32:02.225] [Main Thread/INFO] [tML]: Adding Recipes...
+[15:32:02.339] [Main Thread/INFO] [BossChecklist]: The Boss Log Mod Call has been last updated on BossChecklist (v2.0.0). Check out the GitHub Wiki guide to stay updated on the latest changes! Updated Mod.Call documentation for BossChecklist can be found here: https://github.com/JavidPack/BossChecklist/wiki/[1.4.4]-Boss-Log-Entry-Mod-Call
+[15:32:02.339] [Main Thread/INFO] [BossChecklist]: Progression values for vanilla entries have been last updated on BossChecklist (v1.4.0)
+[15:32:02.339] [Main Thread/INFO] [BossChecklist]: NoLogging
+[15:32:02.635] [Main Thread/INFO] [ThoriumMod]: CALL SUCCESS: Successfully added content from the following mods to the "AddMartianItemID" cache:
+[15:32:02.635] [Main Thread/INFO] [ThoriumMod]:   The Clicker Class: "HighTechClicker"
+[15:32:26.966] [.NET ThreadPool Worker/INFO] [Terraria]: Loading World: El pozon, IsCloud=False, Width: 8400, Height: 2400, Evil: 1, GameMode: 2
+[15:32:27.073] [.NET ThreadPool Worker/INFO] [StatusText]: Loading world data
+[15:32:29.566] [.NET ThreadPool Worker/INFO] [StatusText]: Settling liquids
+[15:32:30.997] [Main Thread/INFO] [Terraria]: Running one update...
+[15:32:30.997] [Main Thread/INFO] [tML]: Server starting with AllowVanillaClients set to False
+[15:32:33.001] [Main Thread/INFO] [Terraria]: Listening on port 7777
+[15:32:34.872] [.NET ThreadPool Worker/DEBUG] [tML]: SSDP search line separator: CRLF
+[15:32:36.605] [.NET ThreadPool Worker/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/rootDesc.xml
+[15:32:36.697] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.713] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.726] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.738] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.752] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.771] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.786] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.797] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.812] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.825] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.838] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.852] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.865] [Main Thread/DEBUG] [tML]: Web Request: http://192.168.1.254:5000/ctl/IPConn
+[15:32:36.989] [.NET ThreadPool Worker/DEBUG] [tML]: Web Request: https://raw.githubusercontent.com/Dummiez/tModLoader-WingSlotExtra/main/build.txt
+[15:33:52.030] [24/DEBUG] [tML]: Assembly Resolve: System.Net.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Net.Sockets.resources, Version=6.0.0.0, Culture=es-MX, PublicKeyToken=b03f5f7f11d50a3a
+[15:33:52.035] [24/DEBUG] [tML]: Assembly Resolve: System.Net.Sockets, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Net.Sockets.resources, Version=6.0.0.0, Culture=es, PublicKeyToken=b03f5f7f11d50a3a
+[15:35:05.770] [TCP Listen Thread/INFO] [Terraria]: 26.142.135.148:53135 is connecting...
+[15:35:06.306] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[15:35:06.307] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[15:35:06.308] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[15:35:06.309] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[15:35:06.310] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[15:35:06.310] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[15:35:06.597] [Main Thread/ERROR] [Fargowiltas]: --SERVER-- HANDING MESSAGE: 0
+[15:35:06.612] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.IO.IOException: Read underflow 1674 of 2 bytes caused by Fargowiltas in HandlePacket
+   at Terraria.ModLoader.ModNet.HandleModPacket(BinaryReader reader, Int32 whoAmI, Int32 length) in tModLoader\Terraria\ModLoader\ModNet.cs:line 503
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 3887
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+   at SyncProxy<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 )
+   at Terraria.Netplay.UpdateServerInMainThread() in tModLoader\Terraria\Netplay.cs:line 59
+   at Terraria.Netplay.UpdateInMainThread() in tModLoader\Terraria\Netplay.cs:line 734
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14195
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[15:35:09.668] [Main Thread/INFO] [Terraria]: BlackGaku has joined.
+[15:36:35.798] [TCP Listen Thread/INFO] [Terraria]: 127.0.0.1:1310 is connecting...
+[15:36:35.820] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[15:36:35.820] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[15:36:35.820] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[15:36:35.821] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[15:36:35.822] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[15:36:35.822] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[15:36:36.462] [Main Thread/INFO] [Terraria]: Mr cucker has joined.
+[15:36:37.220] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CalamityMod.Graphics.Renderers.CalamityRenderers.DyeableShadersRenderer.FindDyesDetour(orig_UpdateItemDye orig, Player self, Boolean isNotInVanitySlot, Boolean isSetToHidden, Item armorItem, Item dyeItem) in CalamityMod\Graphics\Renderers\CalamityRenderers\DyeableShadersRenderer.cs:line 61
+   at Hook<System.Void CalamityMod.Graphics.Renderers.CalamityRenderers.DyeableShadersRenderer::FindDyesDetour(Terraria.On_Player+orig_UpdateItemDye,Terraria.Player,System.Boolean,System.Boolean,Terraria.Item,Terraria.Item)>(Player , Boolean , Boolean , Item , Item )
+   at CalamityMod.ILEditing.ILChanges.FindCalamityItemDyeShader(orig_UpdateItemDye orig, Player self, Boolean isNotInVanitySlot, Boolean isSetToHidden, Item armorItem, Item dyeItem) in CalamityMod\ILEditing\MechanicILChanges.cs:line 1295
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::FindCalamityItemDyeShader(Terraria.On_Player+orig_UpdateItemDye,Terraria.Player,System.Boolean,System.Boolean,Terraria.Item,Terraria.Item)>(Player , Boolean , Boolean , Item , Item )
+   at SyncProxy<System.Void Terraria.Player:UpdateItemDye(System.Boolean, System.Boolean, Terraria.Item, Terraria.Item)>(Player , Boolean , Boolean , Item , Item )
+   at Terraria.Player.UpdateDyes() in tModLoader\Terraria\Player.cs:line 7680
+   at DMD<System.Void Terraria.Player:Update(System.Int32)>(Player this, Int32 i)
+   at SyncProxy<System.Void Terraria.Player:Update(System.Int32)>(Player , Int32 )
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[15:45:06.891] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:45:07.562] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:52:10.458] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 35
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 39
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60054
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+   at SyncProxy<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 )
+   at Terraria.Netplay.UpdateServerInMainThread() in tModLoader\Terraria\Netplay.cs:line 59
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14195
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[15:52:10.461] [Main Thread/ERROR] [Network]: [1][127.0.0.1:1310 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[15:52:15.264] [Server Loop Thread/INFO] [Network]: [1][127.0.0.1:1310 (Mr cucker)] Terminating: Connection lost
+[15:52:15.265] [Server Loop Thread/INFO] [Network]: [1][127.0.0.1:1310 (Mr cucker)] Closing TcpSocket
+[15:52:15.267] [Server Loop Thread/INFO] [Terraria]: Mr cucker has left.
+[15:54:13.998] [TCP Listen Thread/INFO] [Terraria]: 127.0.0.1:1455 is connecting...
+[15:54:14.020] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[15:54:14.020] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[15:54:14.020] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[15:54:14.020] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[15:54:14.020] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[15:54:14.020] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[15:54:15.243] [Main Thread/INFO] [Terraria]: Mr cucker has joined.
+[15:55:07.044] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:55:07.644] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:05:05.458] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Projectile.AI_007_GrapplingHooks() in tModLoader\Terraria\Projectile.cs:line 36810
+   at Terraria.Projectile.VanillaAI() in tModLoader\Terraria\Projectile.cs:line 17915
+   at Terraria.ModLoader.ProjectileLoader.ProjectileAI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 145
+   at Terraria.Projectile.Update(Int32 i) in tModLoader\Terraria\Projectile.cs:line 13004
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[16:05:07.036] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:05:07.647] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:15:07.074] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:15:07.690] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:25:07.119] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:25:07.725] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:35:07.048] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:35:07.646] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:35:58.650] [TCP Listen Thread/INFO] [Terraria]: 26.197.241.126:63607 is connecting...
+[16:35:58.678] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[16:35:58.679] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[16:35:58.679] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[16:35:58.679] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[16:35:58.679] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[16:35:58.679] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[16:37:59.084] [Main Thread/INFO] [Network]: [2][26.197.241.126:63607 (Anonymous)] Terminating: Timeout
+[16:37:59.093] [Server Loop Thread/INFO] [Network]: [2][26.197.241.126:63607 (Anonymous)] Closing TcpSocket
+[16:38:47.903] [TCP Listen Thread/INFO] [Terraria]: 26.197.241.126:63654 is connecting...
+[16:38:47.906] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[16:38:47.906] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[16:38:47.906] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[16:38:47.906] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[16:38:47.906] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[16:38:47.906] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[16:38:48.161] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.IO.IOException: Read underflow 1 of 2 bytes caused by Fargowiltas in HandlePacket
+   at Terraria.ModLoader.ModNet.HandleModPacket(BinaryReader reader, Int32 whoAmI, Int32 length) in tModLoader\Terraria\ModLoader\ModNet.cs:line 503
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 3887
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+   at SyncProxy<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 )
+   at Terraria.Netplay.UpdateServerInMainThread() in tModLoader\Terraria\Netplay.cs:line 59
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14195
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[16:38:48.816] [Main Thread/INFO] [Terraria]: zzz has joined.
+[16:39:10.347] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CalamityMod.Projectiles.Summon.DeathstareBeam.AI() in CalamityMod\Projectiles\Summon\DeathstareBeam.cs:line 31
+   at Terraria.ModLoader.ProjectileLoader.AI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 179
+   at Terraria.ModLoader.ProjectileLoader.ProjectileAI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 153
+   at Terraria.Projectile.Update(Int32 i) in tModLoader\Terraria\Projectile.cs:line 13004
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[16:40:29.237] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: The given key 'CalamityOverhaul/Murasama_DownKey' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CalamityOverhaul.Content.Projectiles.Weapons.Melee.MurasamaProj.MurasamaHeldProj.InOwner() in CalamityOverhaul\Content\Projectiles\Weapons\Melee\MurasamaProj\MurasamaHeldProj.cs:line 118
+   at CalamityOverhaul.Content.Projectiles.Weapons.Melee.MurasamaProj.MurasamaHeldProj.AI() in CalamityOverhaul\Content\Projectiles\Weapons\Melee\MurasamaProj\MurasamaHeldProj.cs:line 66
+   at Terraria.ModLoader.ProjectileLoader.AI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 179
+   at Terraria.ModLoader.ProjectileLoader.ProjectileAI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 153
+   at Terraria.Projectile.Update(Int32 i) in tModLoader\Terraria\Projectile.cs:line 13004
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[16:45:07.120] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:45:07.759] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:46:47.442] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: The given key 'CalamityOverhaul/Murasama_DownKey' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Terraria.ModLoader.ModKeybind.get_JustPressed() in tModLoader\Terraria\ModLoader\ModKeybind.cs:line 57
+   at CalamityOverhaul.Content.Projectiles.Weapons.Melee.MurasamaProj.MurasamaBreakOut.AI() in CalamityOverhaul\Content\Projectiles\Weapons\Melee\MurasamaProj\MurasamaBreakOut.cs:line 144
+   at Terraria.ModLoader.ProjectileLoader.AI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 179
+   at Terraria.ModLoader.ProjectileLoader.ProjectileAI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 153
+   at Terraria.Projectile.Update(Int32 i) in tModLoader\Terraria\Projectile.cs:line 13004
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[16:49:31.874] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.Collections.Generic.KeyNotFoundException: The given key 'CalamityOverhaul/Murasama_DownKey' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CalamityOverhaul.Content.Projectiles.Weapons.Melee.MurasamaProj.MurasamaBreakOut.AI() in CalamityOverhaul\Content\Projectiles\Weapons\Melee\MurasamaProj\MurasamaBreakOut.cs:line 144
+   at Terraria.ModLoader.ProjectileLoader.AI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 179
+   at Terraria.ModLoader.ProjectileLoader.ProjectileAI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 153
+   at Terraria.Projectile.Update(Int32 i) in tModLoader\Terraria\Projectile.cs:line 13004
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[16:55:07.315] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:55:07.928] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:05:07.402] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:05:08.068] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:15:07.258] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:15:07.868] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:16:16.786] [Main Thread/ERROR] [Network]: [1][127.0.0.1:1455 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[17:24:34.800] [Server Loop Thread/INFO] [Network]: [2][26.197.241.126:63654 (zzz)] Terminating: Connection lost
+[17:24:34.802] [Server Loop Thread/INFO] [Network]: [2][26.197.241.126:63654 (zzz)] Closing TcpSocket
+[17:24:34.804] [Server Loop Thread/INFO] [Terraria]: zzz has left.
+[17:24:34.816] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Ionic.Zlib.ZlibBaseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.BinaryWriter.Write(Byte[] buffer, Int32 index, Int32 count)
+   at Terraria.NetMessage.CompressTileBlock_Inner(BinaryWriter writer, Int32 xStart, Int32 yStart, Int32 width, Int32 height) in tModLoader\Terraria\NetMessage.cs:line 2075
+   at Terraria.NetMessage.CompressTileBlock(Int32 xStart, Int32 yStart, Int16 width, Int16 height, Stream stream) in tModLoader\Terraria\NetMessage.cs:line 1820
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 385
+   at Terraria.NetMessage.SendSection(Int32 whoAmi, Int32 sectionX, Int32 sectionY) in tModLoader\Terraria\NetMessage.cs:line 2566
+   at Terraria.RemoteClient.CheckSection(Int32 playerIndex, Vector2 position, Int32 fluff) in tModLoader\Terraria\RemoteClient.cs:line 122
+   at Terraria.Main.UpdateServer() in tModLoader\Terraria\Main.cs:line 55612
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[17:24:34.818] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at Ionic.Zlib.ZlibBaseStream.finish()
+   at Ionic.Zlib.ZlibBaseStream.Close()
+   at Ionic.Zlib.DeflateStream.Dispose(Boolean disposing)
+   at Terraria.NetMessage.CompressTileBlock(Int32 xStart, Int32 yStart, Int16 width, Int16 height, Stream stream) in tModLoader\Terraria\NetMessage.cs:line 1820
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 385
+   at Terraria.NetMessage.SendSection(Int32 whoAmi, Int32 sectionX, Int32 sectionY) in tModLoader\Terraria\NetMessage.cs:line 2566
+   at Terraria.RemoteClient.CheckSection(Int32 playerIndex, Vector2 position, Int32 fluff) in tModLoader\Terraria\RemoteClient.cs:line 122
+   at Terraria.Main.UpdateServer() in tModLoader\Terraria\Main.cs:line 55612
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[17:24:41.650] [TCP Listen Thread/INFO] [Terraria]: 26.197.241.126:63805 is connecting...
+[17:24:41.669] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[17:24:41.670] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[17:24:41.670] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[17:24:41.670] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[17:24:41.670] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[17:24:41.670] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[17:24:43.128] [Main Thread/INFO] [Terraria]: zzz has joined.
+[17:25:07.198] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:25:07.816] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:35:07.319] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:35:07.962] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:35:51.262] [Server Loop Thread/INFO] [Network]: [0][26.142.135.148:53135 (BlackGaku)] Terminating: Connection lost
+[17:35:51.264] [Server Loop Thread/INFO] [Network]: [0][26.142.135.148:53135 (BlackGaku)] Closing TcpSocket
+[17:35:51.307] [Server Loop Thread/INFO] [Terraria]: BlackGaku has left.
+[17:35:55.323] [TCP Listen Thread/INFO] [Terraria]: 26.142.135.148:53316 is connecting...
+[17:35:55.337] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[17:35:55.338] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[17:35:55.338] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[17:35:55.338] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[17:35:55.338] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[17:35:55.338] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[17:35:55.597] [Main Thread/ERROR] [Fargowiltas]: --SERVER-- HANDING MESSAGE: 0
+[17:35:55.599] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.IO.IOException: Read underflow 1674 of 2 bytes caused by Fargowiltas in HandlePacket
+   at Terraria.ModLoader.ModNet.HandleModPacket(BinaryReader reader, Int32 whoAmI, Int32 length) in tModLoader\Terraria\ModLoader\ModNet.cs:line 503
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 3887
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+   at SyncProxy<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 )
+   at Terraria.Netplay.UpdateServerInMainThread() in tModLoader\Terraria\Netplay.cs:line 59
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14195
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[17:35:57.356] [Main Thread/INFO] [Terraria]: BlackGaku has joined.
+[17:36:21.173] [Server Loop Thread/INFO] [Network]: [0][26.142.135.148:53316 (BlackGaku)] Terminating: Connection lost
+[17:36:21.174] [Server Loop Thread/INFO] [Network]: [0][26.142.135.148:53316 (BlackGaku)] Closing TcpSocket
+[17:36:21.176] [Server Loop Thread/INFO] [Terraria]: BlackGaku has left.
+[17:38:25.250] [TCP Listen Thread/INFO] [Terraria]: 26.142.135.148:53339 is connecting...
+[17:38:25.269] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[17:38:25.269] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[17:38:25.269] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[17:38:25.269] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[17:38:25.269] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[17:38:25.269] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[17:38:25.524] [Main Thread/ERROR] [Fargowiltas]: --SERVER-- HANDING MESSAGE: 0
+[17:38:26.342] [Main Thread/INFO] [Terraria]: BlackGaku has joined.
+[17:45:07.411] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:45:08.027] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:45:33.480] [Main Thread/ERROR] [Network]: [1][127.0.0.1:1455 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[17:55:07.401] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:55:08.013] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:05:07.424] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:05:08.053] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:13:39.452] [Main Thread/ERROR] [Network]: [1][127.0.0.1:1455 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[18:15:07.320] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:15:07.918] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:16:51.846] [Server Loop Thread/INFO] [Network]: [2][26.197.241.126:63805 (zzz)] Terminating: Connection lost
+[18:16:51.848] [Server Loop Thread/INFO] [Network]: [2][26.197.241.126:63805 (zzz)] Closing TcpSocket
+[18:16:51.850] [Server Loop Thread/INFO] [Terraria]: zzz has left.
+[18:16:51.852] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 112
+   at Terraria.NetMessage.BootPlayer(Int32 plr, NetworkText msg) in tModLoader\Terraria\NetMessage.cs:line 2428
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 147
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+   at SyncProxy<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 )
+   at Terraria.Netplay.UpdateServerInMainThread() in tModLoader\Terraria\Netplay.cs:line 59
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14195
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[18:16:51.853] [Main Thread/ERROR] [Network]: [2][ (Anonymous)] NeverCalled(0)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 112
+   at Terraria.NetMessage.BootPlayer(Int32 plr, NetworkText msg) in tModLoader\Terraria\NetMessage.cs:line 2428
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 147
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[18:21:13.264] [Server Loop Thread/INFO] [Network]: [0][26.142.135.148:53339 (BlackGaku)] Terminating: Connection lost
+[18:21:13.265] [Server Loop Thread/INFO] [Network]: [0][26.142.135.148:53339 (BlackGaku)] Closing TcpSocket
+[18:21:13.267] [Server Loop Thread/INFO] [Terraria]: BlackGaku has left.
+[18:25:07.382] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:25:07.964] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:35:07.349] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:35:07.926] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:35:38.018] [Server Loop Thread/INFO] [Network]: [1][127.0.0.1:1455 (Mr cucker)] Terminating: Connection lost
+[18:35:38.019] [Server Loop Thread/INFO] [Network]: [1][127.0.0.1:1455 (Mr cucker)] Closing TcpSocket
+[18:35:38.027] [Server Loop Thread/INFO] [Terraria]: Mr cucker has left.
+[19:50:05.212] [TCP Listen Thread/INFO] [Terraria]: 127.0.0.1:4305 is connecting...
+[19:50:05.241] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[19:50:05.241] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[19:50:05.241] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[19:50:05.241] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[19:50:05.241] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[19:50:05.241] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[19:50:05.407] [Main Thread/ERROR] [Fargowiltas]: --SERVER-- HANDING MESSAGE: 0
+[19:50:08.218] [Main Thread/INFO] [Terraria]: Mr cucker has joined.
+[19:59:34.671] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[19:59:35.242] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[20:05:55.505] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:09:34.627] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[20:09:35.284] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[20:13:12.067] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:13:27.799] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:19:34.730] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[20:19:35.329] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[20:26:47.195] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:27:36.464] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:29:34.648] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[20:29:35.264] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[20:33:04.916] [TCP Listen Thread/INFO] [Terraria]: 26.142.135.148:58549 is connecting...
+[20:33:04.949] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[20:33:04.949] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[20:33:04.949] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[20:33:04.949] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[20:33:04.949] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[20:33:04.949] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[20:33:06.572] [Main Thread/INFO] [Terraria]: BlackGaku has joined.
+[20:37:04.964] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:37:36.709] [TCP Listen Thread/INFO] [Terraria]: 26.197.241.126:60266 is connecting...
+[20:37:36.746] [Main Thread/DEBUG] [tML]: Sending Server Config CalamityOverhaul:ContentConfig {"MurasamaScaleOffset":1.0,"MurasamaRisingDragonCoolDownBarSize":1.0}
+[20:37:36.746] [Main Thread/DEBUG] [tML]: Sending Server Config Fargowiltas:FargoServerConfig {}
+[20:37:36.746] [Main Thread/DEBUG] [tML]: Sending Server Config MBStats:MBStatsConfigServer {}
+[20:37:36.746] [Main Thread/DEBUG] [tML]: Sending Server Config NoMoreTombs:Configuration {}
+[20:37:36.746] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[20:37:36.746] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[20:37:37.899] [Main Thread/INFO] [Terraria]: zzz has joined.
+[20:38:56.331] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:39:34.948] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[20:39:35.576] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[20:39:39.208] [Main Thread/ERROR] [Network]: [1][26.142.135.148:58549 (BlackGaku)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:40:24.895] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:41:44.648] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:41:57.942] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:43:29.763] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:49:34.858] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[20:49:35.512] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[20:54:44.837] [Main Thread/ERROR] [Network]: [2][26.197.241.126:60266 (zzz)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[20:59:34.785] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[20:59:35.384] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[21:09:34.942] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[21:09:35.690] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[21:11:47.637] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CalamityMod.Items.Tools.WulfrumTreasurePinger.CanUseItem(Player player) in CalamityMod\Items\Tools\WulfrumTreasurePinger.cs:line 125
+   at DMD<System.Boolean Terraria.ModLoader.ItemLoader:CanUseItem(Terraria.Item, Terraria.Player)>(Item item, Player player)
+   at CalamityOverhaul.Content.RemakeItems.Core.RItemSystem.OnCanUseItemHook(On_CanUseItem_Delegate orig, Item item, Player player) in CalamityOverhaul\Content\RemakeItems\Core\RItemSystem.cs:line 103
+   at Hook<System.Boolean CalamityOverhaul.Content.RemakeItems.Core.RItemSystem::OnCanUseItemHook(CalamityOverhaul.Content.RemakeItems.Core.On_CanUseItem_Delegate,Terraria.Item,Terraria.Player)>(Item , Player )
+   at SyncProxy<System.Boolean Terraria.ModLoader.ItemLoader:CanUseItem(Terraria.Item, Terraria.Player)>(Item , Player )
+   at Terraria.Player.ItemCheck_CheckCanUse(Item sItem) in tModLoader\Terraria\Player.cs:line 42199
+   at Terraria.Player.ItemCheck_Inner() in tModLoader\Terraria\Player.cs:line 35284
+   at Terraria.Player.ItemCheck() in tModLoader\Terraria\Player.cs:line 35137
+   at Terraria.Player.ItemCheckWrapped(Int32 i) in tModLoader\Terraria\Player.cs:line 25308
+   at DMD<System.Void Terraria.Player:Update(System.Int32)>(Player this, Int32 i)
+   at SyncProxy<System.Void Terraria.Player:Update(System.Int32)>(Player , Int32 )
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[21:19:34.971] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[21:19:35.663] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[21:22:45.435] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:23:00.363] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:23:19.409] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:23:30.369] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:23:30.633] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:24:37.627] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:25:00.836] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:25:07.077] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:25:07.714] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:26:40.144] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:27:00.364] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:27:03.606] [Main Thread/ERROR] [Network]: [0][127.0.0.1:4305 (Mr cucker)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60055
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at DMD<System.Void Terraria.NPC:checkDead()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:checkDead()>(NPC )
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65778
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[21:29:35.180] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[21:29:35.862] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[21:39:34.888] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[21:39:35.488] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[21:49:35.197] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[21:49:35.835] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[21:51:54.006] [Server Loop Thread/INFO] [Network]: [2][26.197.241.126:60266 (zzz)] Terminating: Connection lost
+[21:51:54.007] [Server Loop Thread/INFO] [Network]: [2][26.197.241.126:60266 (zzz)] Closing TcpSocket
+[21:51:54.010] [Server Loop Thread/INFO] [Terraria]: zzz has left.
+[21:59:35.003] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[21:59:35.599] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[22:09:35.116] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[22:09:35.723] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[22:19:35.030] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[22:19:35.624] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[22:20:19.713] [Server Loop Thread/INFO] [Network]: [1][26.142.135.148:58549 (BlackGaku)] Terminating: Connection lost
+[22:20:19.714] [Server Loop Thread/INFO] [Network]: [1][26.142.135.148:58549 (BlackGaku)] Closing TcpSocket
+[22:20:19.716] [Server Loop Thread/INFO] [Terraria]: BlackGaku has left.
+[22:21:49.481] [Server Loop Thread/INFO] [Network]: [0][127.0.0.1:4305 (Mr cucker)] Terminating: Connection lost
+[22:21:49.482] [Server Loop Thread/INFO] [Network]: [0][127.0.0.1:4305 (Mr cucker)] Closing TcpSocket
+[22:21:49.484] [Server Loop Thread/INFO] [Terraria]: Mr cucker has left.
+[22:21:55.963] [Server Input Thread/INFO] [StatusText]: Saving world data
+[22:21:56.425] [Server Input Thread/INFO] [StatusText]: Validating world save
+[22:22:02.644] [Main Thread/INFO] [StatusText]: Saving world data
+[22:22:03.098] [Main Thread/INFO] [StatusText]: Validating world save

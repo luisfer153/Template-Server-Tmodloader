@@ -1,10 +1,10 @@
-c20ea300efcca9f2605ce4f61ac7d74cd38ef6b7 Add Player.accFlipper getter
-c725c50989b18586417ce1169a464bdd1a5ea608 Fix #2020 (#3851)
-0c34a06fd49805b17ee6cf21f267ed204d3d1980 Terminal Fix SDL driver fallbacks on Linux, includes upstream FNA (not FNA3D) update
-28404764065cf503ef6129e8db9aa492f9164419 Quick-swap fixes for items with reuseDelay or useTime > useAnimation
-e5748724bdc73534f5c8231fc49d5554a14305cc Fix "install .net 6.0.0" issue when opening .csproj file from in-game menu.
-0658c2cf0f54abc326691ace2855a3004bc70d78 Set Main.myPlayer for servers immediately on launch, before autogen
-44a57c1941c343fd9b498d45fc1762a8abc0ec86 Keep autoReusing a smart selected item when controlTorch is released unless a hotbar key is pressed
-c2c5953522f7f311ae2feed04ab7b355609c5b19 Update Minecraft wiki link to new domain (#3848)
-38c14b2e5ce0857dae427104cdf5fc6f6757e2a2 Fix server -world loading for worlds made since mod version tracking feature added.
-42d29e30ded68ae63cd3d95d35e5e2fd8879116b Fix MonoModHooks not unloading hooks automatically from any mod except the first.
+13b2d724a2e0993eedd7e7db1798a1ed24672f74 Hot Fix for FamilyShare for #4018
+db79f6a2e3a979bdbb8806f10c51386da30f45a4 Fix exception causing UI issue when publishing new mod
+d08a60737e123fe10b47bf62cc4dd197a8be47b8 Made content file casing fixes work on Unix too. (#4002)
+b5e31cbae6119d1597c7dbe4a08cad64cce7c174 Check outer types for PreJITFilter attributes and improve error messages (#4033)
+13080f3e360153db0fb037777330eba7fef053d9 Make type 0 entities inactive in SetDefaults and TurnToAir (#4032)
+1adb122cbe0063e35c68cec3919259bf38c668f5 Added fallbacks for assumed GOG default paths, Fix #3526 (#4018)
+35bd8021d9399588c9f0edac9f36024383f4706a Automatically switch to x86 architecture when Rosetta is present (#4017)
+0c8af3289003167ac89be34a80e3f3bb5427ceda Fix language packs don't work issue (#2617)
+ed6a2643fc43eee157b57035169579b3ccdb7c21 Prevent Recalculate spam with ModMenu.UserInterface.
+703dfb865006525d7d5c309dc0dc1045fc0462f8 Fixed #4007 (Delete Mod modal is bugged)
