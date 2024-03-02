@@ -14,7 +14,7 @@
           "Microsoft.CodeAnalysis.CSharp": "4.2.0",
           "Microsoft.CodeAnalysis.Common": "4.2.0",
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
-          "MonoMod.RuntimeDetour": "25.0.2",
+          "MonoMod.RuntimeDetour": "25.1.0",
           "ReLogic": "1.0.0",
           "Steamworks.NET": "20.1.0",
           "System.CodeDom": "6.0.0",
@@ -403,48 +403,48 @@
           }
         }
       },
-      "Mono.Cecil/0.11.4": {
+      "Mono.Cecil/0.11.5": {
         "runtime": {
           "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
-            "assemblyVersion": "0.11.4.0",
-            "fileVersion": "0.11.4.0"
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
           },
           "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
-            "assemblyVersion": "0.11.4.0",
-            "fileVersion": "0.11.4.0"
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
           },
           "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
-            "assemblyVersion": "0.11.4.0",
-            "fileVersion": "0.11.4.0"
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
           },
           "lib/netstandard2.0/Mono.Cecil.dll": {
-            "assemblyVersion": "0.11.4.0",
-            "fileVersion": "0.11.4.0"
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
           }
         }
       },
-      "MonoMod.Backports/1.0.1": {
+      "MonoMod.Backports/1.1.0": {
         "dependencies": {
-          "MonoMod.ILHelpers": "1.0.0"
+          "MonoMod.ILHelpers": "1.0.1"
         },
         "runtime": {
           "lib/net6.0/MonoMod.Backports.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       },
-      "MonoMod.Core/1.0.1": {
+      "MonoMod.Core/1.1.0": {
         "dependencies": {
-          "Mono.Cecil": "0.11.4",
-          "MonoMod.Backports": "1.0.1",
-          "MonoMod.ILHelpers": "1.0.0",
-          "MonoMod.Utils": "25.0.3"
+          "Mono.Cecil": "0.11.5",
+          "MonoMod.Backports": "1.1.0",
+          "MonoMod.ILHelpers": "1.0.1",
+          "MonoMod.Utils": "25.0.4"
         },
         "runtime": {
           "lib/net6.0/MonoMod.Core.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           },
           "lib/net6.0/MonoMod.Iced.dll": {
             "assemblyVersion": "1.17.0.0",
@@ -452,39 +452,39 @@
           }
         }
       },
-      "MonoMod.ILHelpers/1.0.0": {
+      "MonoMod.ILHelpers/1.0.1": {
         "runtime": {
           "lib/net6.0/MonoMod.ILHelpers.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.1.0",
             "fileVersion": "0.0.0.0"
           }
         }
       },
-      "MonoMod.RuntimeDetour/25.0.2": {
+      "MonoMod.RuntimeDetour/25.1.0": {
         "dependencies": {
-          "Mono.Cecil": "0.11.4",
-          "MonoMod.Backports": "1.0.1",
-          "MonoMod.Core": "1.0.1",
-          "MonoMod.ILHelpers": "1.0.0",
-          "MonoMod.Utils": "25.0.3"
+          "Mono.Cecil": "0.11.5",
+          "MonoMod.Backports": "1.1.0",
+          "MonoMod.Core": "1.1.0",
+          "MonoMod.ILHelpers": "1.0.1",
+          "MonoMod.Utils": "25.0.4"
         },
         "runtime": {
           "lib/net6.0/MonoMod.RuntimeDetour.dll": {
-            "assemblyVersion": "25.0.2.0",
-            "fileVersion": "25.0.2.0"
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.0.0"
           }
         }
       },
-      "MonoMod.Utils/25.0.3": {
+      "MonoMod.Utils/25.0.4": {
         "dependencies": {
-          "Mono.Cecil": "0.11.4",
-          "MonoMod.Backports": "1.0.1",
-          "MonoMod.ILHelpers": "1.0.0"
+          "Mono.Cecil": "0.11.5",
+          "MonoMod.Backports": "1.1.0",
+          "MonoMod.ILHelpers": "1.0.1"
         },
         "runtime": {
           "lib/net6.0/MonoMod.Utils.dll": {
-            "assemblyVersion": "25.0.3.0",
-            "fileVersion": "25.0.3.0"
+            "assemblyVersion": "25.0.4.0",
+            "fileVersion": "25.0.4.0"
           }
         }
       },
@@ -1656,47 +1656,47 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
-    "Mono.Cecil/0.11.4": {
+    "Mono.Cecil/0.11.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IC1h5g0NeJGHIUgzM1P82ld57knhP0IcQfrYITDPXlNpMYGUrsG5TxuaWTjaeqDNQMBDNZkB8L0rBnwsY6JHuQ==",
-      "path": "mono.cecil/0.11.4",
-      "hashPath": "mono.cecil.0.11.4.nupkg.sha512"
+      "sha512": "sha512-fxfX+0JGTZ8YQeu1MYjbBiK2CYTSzDyEeIixt+yqKKTn7FW8rv7JMY70qevup4ZJfD7Kk/VG/jDzQQTpfch87g==",
+      "path": "mono.cecil/0.11.5",
+      "hashPath": "mono.cecil.0.11.5.nupkg.sha512"
     },
-    "MonoMod.Backports/1.0.1": {
+    "MonoMod.Backports/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LWIzLvkkmXlucCWL9gg17WBHhmw9hBpMjiFFBfVKJ4Cova6BLoLqjT+yjZM7RW70ezXJ/ry7zsicvvTV67Hxnw==",
-      "path": "monomod.backports/1.0.1",
-      "hashPath": "monomod.backports.1.0.1.nupkg.sha512"
+      "sha512": "sha512-GUAjCrCZEddqHKHFA7Lh61PgTzoKY7gfBShFe0hQe0p8iynHhBK3TWGyRi+QIw/PGfaRPwx6c33CPGFURBVM6g==",
+      "path": "monomod.backports/1.1.0",
+      "hashPath": "monomod.backports.1.1.0.nupkg.sha512"
     },
-    "MonoMod.Core/1.0.1": {
+    "MonoMod.Core/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VL7d4L+/JU9LR1eXe+Wo2NquCzPExeMorBe23S/7Rn8cydb4Ex+wMpFhnlUfwT9jbLV/TiNbaVGJtR73fBwVCw==",
-      "path": "monomod.core/1.0.1",
-      "hashPath": "monomod.core.1.0.1.nupkg.sha512"
+      "sha512": "sha512-Ks8RntZGVcktr2QF/AovTEbuOkrgXz6omjrvT5LRveOIQJuy+IFuEQPBVWu+cSKVIoZD5XkpRFvlVrItgPIrXw==",
+      "path": "monomod.core/1.1.0",
+      "hashPath": "monomod.core.1.1.0.nupkg.sha512"
     },
-    "MonoMod.ILHelpers/1.0.0": {
+    "MonoMod.ILHelpers/1.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dTjGA+dYl7W5yQ0oG/Wr57tsa+ueoFUrwPtz9MZF9iheun4n70u7lge52F8UJi9i0zMHRfS2mAY6+nPuRZHQyQ==",
-      "path": "monomod.ilhelpers/1.0.0",
-      "hashPath": "monomod.ilhelpers.1.0.0.nupkg.sha512"
+      "sha512": "sha512-6djj/Hz+/eTomo1H/sJEJNxBz2ZdhXjvH0MOmyU2xRtbjaIfBQuyVV0zNUbJhMY/8qoWrz7WXfskfFhdaY0afA==",
+      "path": "monomod.ilhelpers/1.0.1",
+      "hashPath": "monomod.ilhelpers.1.0.1.nupkg.sha512"
     },
-    "MonoMod.RuntimeDetour/25.0.2": {
+    "MonoMod.RuntimeDetour/25.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7HuQGIMMtu9q0PEnJYl7xztT14TmGSP56B4unBYWuZvPgWCZWX9hGOmTm7zDYhwMsjUQcCTl9iiqOlI1+NHVLg==",
-      "path": "monomod.runtimedetour/25.0.2",
-      "hashPath": "monomod.runtimedetour.25.0.2.nupkg.sha512"
+      "sha512": "sha512-8c8fJKXt1rgzN/o0OBWMbQvLmCMqCleelMfxbqD0rw+yriabxD1x0h6Dtft/gDEvAJd2gVpKKUuTh3TMAWCzJA==",
+      "path": "monomod.runtimedetour/25.1.0",
+      "hashPath": "monomod.runtimedetour.25.1.0.nupkg.sha512"
     },
-    "MonoMod.Utils/25.0.3": {
+    "MonoMod.Utils/25.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+/lFnYwNB728wnqAzkzCny88Ik++dueJiDAE+mRuMQf8NYHvWhNgLyZQ1VTN4x8iTelQGL1SzaY0I2bBPNNAog==",
-      "path": "monomod.utils/25.0.3",
-      "hashPath": "monomod.utils.25.0.3.nupkg.sha512"
+      "sha512": "sha512-cB94MaZtFD9u4clYEFTwM4jGXnJnzXsxYF3yBpMZKHhXOas66tMF2frbdYte023i0MH4C5iRJbDjxHmA4x5VgA==",
+      "path": "monomod.utils/25.0.4",
+      "hashPath": "monomod.utils.25.0.4.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",

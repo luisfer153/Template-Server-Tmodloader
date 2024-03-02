@@ -1,10 +1,10 @@
-13b2d724a2e0993eedd7e7db1798a1ed24672f74 Hot Fix for FamilyShare for #4018
-db79f6a2e3a979bdbb8806f10c51386da30f45a4 Fix exception causing UI issue when publishing new mod
-d08a60737e123fe10b47bf62cc4dd197a8be47b8 Made content file casing fixes work on Unix too. (#4002)
-b5e31cbae6119d1597c7dbe4a08cad64cce7c174 Check outer types for PreJITFilter attributes and improve error messages (#4033)
-13080f3e360153db0fb037777330eba7fef053d9 Make type 0 entities inactive in SetDefaults and TurnToAir (#4032)
-1adb122cbe0063e35c68cec3919259bf38c668f5 Added fallbacks for assumed GOG default paths, Fix #3526 (#4018)
-35bd8021d9399588c9f0edac9f36024383f4706a Automatically switch to x86 architecture when Rosetta is present (#4017)
-0c8af3289003167ac89be34a80e3f3bb5427ceda Fix language packs don't work issue (#2617)
-ed6a2643fc43eee157b57035169579b3ccdb7c21 Prevent Recalculate spam with ModMenu.UserInterface.
-703dfb865006525d7d5c309dc0dc1045fc0462f8 Fixed #4007 (Delete Mod modal is bugged)
+d7fbb1c894baee4ceb7fca5291098e1483be3b2a Workaround for unknown behaviour in #4085- argument disableugcplaytime
+3abfd59b06b8b5ce80a0334dc377df24e72e3351 Fix #4081
+0c94ce1a856d8460a58f0bd835312063edf47fe6 Update MonoMod to 25.1.0
+471c94272f379cb0f80f65e262a8a4921eb0e63b Hot Fix for FamilyShare for #4018
+885674a6cd8dd4454fbb0837e395feacfec2060e Reorder log message so ControlledFolderAccessDetected noted before porting files
+1b8213742dbd067ddd8d37e45ad0dd212fbdfe62 trycatch UIModBrowser.OnActivate to allow uistate to display properly despite exception
+7dada24f2fe5c7fda8e32a9d06018b71985ba695 Fix exception causing UI issue when publishing new mod
+b20d48808b5fe7bb918dbc49d8789473873c37dd Clarify serverconfig.txt being automatic default
+5fb6418713952e7ca85814d714cc3cc7e3cabd53 Loads of docs
+945c281e19839e3b0edb7d3dba25390b989aa4d1 Add Player.hasGemRobe (#4043)
