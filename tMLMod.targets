@@ -10,7 +10,7 @@
     	<DotNetName Condition=" '$(OS)' == 'Windows_NT' ">dotnet.exe</DotNetName>
     	<DotNetName Condition=" '$(OS)' == 'Unix' ">dotnet</DotNetName>
     	<DotNetName Condition=" '$(DotNetName)' == '' ">dotnet</DotNetName>
-		<DefineConstants>$(DefineConstants);TML_2024_01</DefineConstants>
+		<DefineConstants>$(DefineConstants);TML_2024_02</DefineConstants>
 	</PropertyGroup>
 	<ItemGroup>
 		<AdditionalFiles Include="**/*.hjson" />

@@ -1,10 +1,10 @@
-d7fbb1c894baee4ceb7fca5291098e1483be3b2a Workaround for unknown behaviour in #4085- argument disableugcplaytime
-3abfd59b06b8b5ce80a0334dc377df24e72e3351 Fix #4081
-0c94ce1a856d8460a58f0bd835312063edf47fe6 Update MonoMod to 25.1.0
-471c94272f379cb0f80f65e262a8a4921eb0e63b Hot Fix for FamilyShare for #4018
-885674a6cd8dd4454fbb0837e395feacfec2060e Reorder log message so ControlledFolderAccessDetected noted before porting files
-1b8213742dbd067ddd8d37e45ad0dd212fbdfe62 trycatch UIModBrowser.OnActivate to allow uistate to display properly despite exception
-7dada24f2fe5c7fda8e32a9d06018b71985ba695 Fix exception causing UI issue when publishing new mod
-b20d48808b5fe7bb918dbc49d8789473873c37dd Clarify serverconfig.txt being automatic default
-5fb6418713952e7ca85814d714cc3cc7e3cabd53 Loads of docs
-945c281e19839e3b0edb7d3dba25390b989aa4d1 Add Player.hasGemRobe (#4043)
+b8fa66ecafc09019693a6bea2d3907f3b063b62e Fix polish localization file
+19ab702acb6efdf1f0569859f5c81a5d998089d3 Update tModLoader.json
+f3053836a97f9c01553c877a762a57f0c5843397 Update tModLoader.json (#4143)
+6d315e1b0f2ec6bef83456981a5bf8bf5aa7dcac zh for: mod reload info ui & server mod config cli ui + punc fix (#4141)
+c1f668a66adad0ec7b1a9396355ccdc079d10331 Update ru-RU.hjson (#4140)
+452d8535e53c3d9e56054b1a371103fa11161a5f Prevent EnableAll/Doubleclick from enabling mod requiring update
+c84edb2229407aa54639b42fc99a52beb319c80c Active Entity Iterators (#4118)
+0649aba30b711a1cf979d5d95cd4b78d29795ae1 Fix #4132
+8ab3554f85db540a728db57950a090e0f9b84ca6 Fix #4130 regression
+58ed35b2ddedcc7f67a7be50a57223de2cd414b0 Temporarily disable compile error from Obsolete ShaderData ctor for Preview purposes.

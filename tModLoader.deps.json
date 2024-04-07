@@ -9,6 +9,7 @@
       "tModLoader/1.4.4.9": {
         "dependencies": {
           "Basic.Reference.Assemblies.Net60": "1.2.4",
+          "DotNetZip": "1.16.0",
           "FNA": "1.0.0",
           "Hjson": "3.0.0",
           "Microsoft.CodeAnalysis.CSharp": "4.2.0",
@@ -22,7 +23,6 @@
           "System.Reflection.MetadataLoadContext": "6.0.0",
           "tModPorter": "1.0.0",
           "CsvHelper": "2.0.0.0",
-          "Ionic.Zip.Reduced": "1.9.1.8",
           "log4net": "2.0.8.0",
           "MP3Sharp": "1.0.0.0",
           "Newtonsoft.Json": "12.0.0.0",
@@ -43,6 +43,18 @@
           "lib/netstandard2.0/Basic.Reference.Assemblies.Net60.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DotNetZip/1.16.0": {
+        "dependencies": {
+          "System.Security.Permissions": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetZip.dll": {
+            "assemblyVersion": "1.16.0.0",
+            "fileVersion": "1.16.0.0"
           }
         }
       },
@@ -1432,6 +1444,7 @@
       },
       "ReLogic/1.0.0": {
         "dependencies": {
+          "DotNetZip": "1.16.0",
           "FNA": "1.0.0"
         },
         "runtime": {
@@ -1455,14 +1468,6 @@
           "CsvHelper.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.16.3.0"
-          }
-        }
-      },
-      "Ionic.Zip.Reduced/1.9.1.8": {
-        "runtime": {
-          "Ionic.Zip.Reduced.dll": {
-            "assemblyVersion": "1.9.1.8",
-            "fileVersion": "1.9.1.8"
           }
         }
       },
@@ -1536,6 +1541,13 @@
       "sha512": "sha512-EbbGNgK3y4iL5mZTzTftyTY7qzNKIT2ZkR/BDiLU8KWFpFK0wpULWUf6OM1WgQelFKmtN3z7TfScnlTeO/y7aQ==",
       "path": "basic.reference.assemblies.net60/1.2.4",
       "hashPath": "basic.reference.assemblies.net60.1.2.4.nupkg.sha512"
+    },
+    "DotNetZip/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CS9sjjXF23FLIbwlLT5k/jXBYxVnLMn01lyAvN/hxFM+UDvSicjTPB9ZMA+Wp/QlvBPbD2pzkAXUp1O50gP/Lw==",
+      "path": "dotnetzip/1.16.0",
+      "hashPath": "dotnetzip.1.16.0.nupkg.sha512"
     },
     "Hjson/3.0.0": {
       "type": "package",
@@ -2400,11 +2412,6 @@
       "sha512": ""
     },
     "CsvHelper/2.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Ionic.Zip.Reduced/1.9.1.8": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

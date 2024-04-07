@@ -58,7 +58,7 @@
 #password=p@55w0rd
 
 #Set the message of the day
-#motd=Please donï¿½t cut the purple trees!
+#motd=Please don’t cut the purple trees!
 
 #Sets the folder where world files will be stored
 #worldpath=C:\Users\Defaults\My Documents\My Games\Terraria\Worlds\
@@ -88,5 +88,4 @@ priority=1
 #modpath=C:\Users\YOUR_USERNAME_HERE\My Documents\My Games\Terraria\tModLoader\Mods\
 
 #Sets the mod pack to load, causing only the specified mods to load. 
-modpath=/workspaces/Tmodloader/diavlazogang/Mods
-World=/workspaces/Tmodloader/El_pozon.wld
+#modpack=MyModpack
