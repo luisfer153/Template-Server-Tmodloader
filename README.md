@@ -1,6 +1,1 @@
-"# tmodloader" 
-"# prueba" 
-"# stimversion" 
-"# TERRARIASERVERANASHE" 
-"# TERRARIASERVERANASHE" 
-"# TERRARIASERVERANASHE" 
+a simple codespace template for terraria modded servers 
